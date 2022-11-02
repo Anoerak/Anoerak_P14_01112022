@@ -1,0 +1,19 @@
+.searchBar {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#header-search {
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 1.25rem;
+	outline: none;
+	width: 15rem;
+	height: 1.25rem;
+}
+
+#header-search::placeholder {
+	font-family: 'NunitoSans-Regular';
+	color: var(--tertiary-color);
+}

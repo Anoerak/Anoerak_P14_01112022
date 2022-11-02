@@ -1,0 +1,30 @@
+.vertical-menu {
+	position: absolute;
+	height: 100vh;
+	min-width: 12rem;
+	background-color: var(--quaternary-color);
+}
+
+.vertical-menu .logo img {
+	width: 10rem;
+	margin-bottom: 5rem;
+}
+
+.vertical-menu ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 0 0 1rem;
+	gap: 1rem;
+}
+
+.vertical-menu ul li .icons {
+	margin-right: 1rem;
+}
+
+.vertical-menu ul li a {
+	text-decoration: none;
+	color: var(--tertiary-color);
+}

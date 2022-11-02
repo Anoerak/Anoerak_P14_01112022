@@ -1,0 +1,20 @@
+header {
+	width: 100%;
+}
+
+header .employeeList__path {
+	width: 90%;
+	background-color: var(--quaternary-color);
+	border-radius: 1.25rem;
+	margin: 1rem;
+	text-align: start;
+	padding: 1rem;
+	font-family: 'Nunito bold';
+	color: var(--tertiary-color);
+}
+
+header h1 {
+	font-size: 2rem;
+	color: black;
+	font-family: 'Nunito bold';
+}

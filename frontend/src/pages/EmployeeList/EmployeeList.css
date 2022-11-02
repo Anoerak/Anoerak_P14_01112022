@@ -1,0 +1,22 @@
+.employeeList_container {
+	height: 100vh;
+	margin-left: 12rem;
+	background-color: var(--secondary-color);
+}
+
+.employeeList__nav {
+	width: 92%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem;
+	padding: 1rem;
+	font-family: 'NunitoSans-Regular';
+	color: var(--tertiary-color);
+}
+
+.employeeList__tableContainer {
+	width: 90%;
+	margin: 1rem;
+	padding: 1rem;
+}

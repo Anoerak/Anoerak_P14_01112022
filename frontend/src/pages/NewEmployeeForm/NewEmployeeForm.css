@@ -1,0 +1,67 @@
+.createEmployee_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	margin-left: 12rem;
+	background-color: var(--secondary-color);
+}
+.createEmployee__nav {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem;
+	padding: 1rem;
+	font-family: 'NunitoSans-Regular';
+	color: var(--tertiary-color);
+}
+
+section {
+	width: 50%;
+	margin-top: -2rem;
+	background-color: var(--quaternary-color);
+	border-radius: 1.25rem;
+	font-family: 'NunitoSans-Regular';
+	color: var(--tertiary-color);
+}
+
+section form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	gap: 1rem;
+}
+
+section form .form-group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	gap: 0.5rem;
+	margin-top: 1rem;
+}
+
+section form fieldset {
+	border-radius: 1rem;
+	width: 80%;
+}
+
+section form fieldset input {
+	width: 90%;
+}
+
+section form fieldset #zip {
+	width: 50%;
+}
+
+section form .form-group input {
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: solid 1px var(--secondary-color);
+}
+
+section button {
+	margin-bottom: 1rem;
+}

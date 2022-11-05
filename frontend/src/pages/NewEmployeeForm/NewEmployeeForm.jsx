@@ -1,19 +1,47 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
+import { useDispatch } from 'react-redux';
+import { addEmployee } from '../../features/Employees/employees.slice';
 
 import Header from '../../components/Header/Header';
 
 import './NewEmployeeForm.css';
 
 const NewEmployeeForm = () => {
+	const dispatch = useDispatch();
+	const navigate = useNavigate();
 	const headerTitle = 'Create Employees';
 	const path = 'HRNet - Add Employee';
+
+	function createEmployee() {
+		let newEmployee = {
+			firstName: document.getElementById('firstName').value,
+			lastName: document.getElementById('lastName').value,
+			dateOfBirth: document.getElementById('birthDate').value,
+			startDate: document.getElementById('startDate').value,
+			department: document.getElementById('department').value,
+			street: document.getElementById('street').value,
+			city: document.getElementById('city').value,
+			state: document.getElementById('state').value,
+			zip: document.getElementById('zip').value,
+		};
+		console.log('new employee: ', newEmployee);
+		dispatch(addEmployee(newEmployee));
+		navigate('/');
+	}
 
 	return (
 		<div className="createEmployee_container">
 			<Header title={headerTitle} path={path} />
 			<nav className="createEmployee__nav"></nav>
 			<section className="createEmployee__formContainer">
-				<form action="">
+				<form
+					onSubmit={(e) => {
+						e.preventDefault();
+						createEmployee();
+					}}
+				>
 					<div className="form-group">
 						<label htmlFor="firstName">First Name</label>
 						<input type="text" name="firstName" id="firstName" />
@@ -23,8 +51,12 @@ const NewEmployeeForm = () => {
 						<input type="text" name="lastName" id="lastName" />
 					</div>
 					<div className="form-group">
-						<label htmlFor="birthdate">Date of Birth</label>
-						<input type="date" name="birthdate" id="birthdate" />
+						<label htmlFor="birthDate">Date of Birth</label>
+						<input type="date" name="birthDate" id="birthDate" />
+					</div>
+					<div className="form-group">
+						<label htmlFor="startDate">Start Date</label>
+						<input type="date" name="startDate" id="startDate" />
 					</div>
 					<fieldset>
 						<legend>
@@ -109,8 +141,10 @@ const NewEmployeeForm = () => {
 							<option value="legal">Legal</option>
 						</select>
 					</div>
+					<button className="validate-button" type="submit">
+						Valider
+					</button>
 				</form>
-				<button>Valider</button>
 			</section>
 		</div>
 	);

@@ -4,6 +4,10 @@ import employeesReducer from '../features/Employees/employees.slice';
 
 export const store = configureStore({
 	reducer: {
-		counter: employeesReducer,
+		employees: employeesReducer,
 	},
+	middleware: (getDefaultMiddleware) =>
+		getDefaultMiddleware({
+			serializableCheck: false,
+		}),
 });

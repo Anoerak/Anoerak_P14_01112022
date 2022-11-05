@@ -28,3 +28,49 @@
 	text-decoration: none;
 	color: var(--tertiary-color);
 }
+/* ----------------------------------------- */
+.datas__origin {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.datas__origin .toggle {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	width: 50px;
+	height: 27px;
+	background-color: var(--primary-color);
+	border-radius: 30px;
+	border: none;
+}
+
+.datas__origin .toggle:after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: var(--secondary-color);
+	top: 1px;
+	left: 1px;
+	transition: all 0.5s;
+}
+
+.datas__origin .checkbox:checked + .toggle::after {
+	left: 25px;
+}
+
+.datas__origin .checkbox:checked + .toggle {
+	background-color: green;
+}
+
+.datas__origin .checkbox {
+	display: none;
+}
+
+.datas__origin h3 {
+	font-size: 0.75rem;
+	color: var(--tertiary-color);
+}

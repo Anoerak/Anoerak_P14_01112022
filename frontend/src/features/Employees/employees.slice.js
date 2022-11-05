@@ -4,11 +4,12 @@ import { Employee } from '../../models/EmployeeModel';
 export const employeesSlice = createSlice({
 	name: 'employees',
 	initialState: {
-		employees: [],
+		employeesArray: [],
 	},
 	reducers: {
 		addEmployee: (state, { payload }) => {
-			state.employees.push(new Employee(payload).addEmployee);
+			const employee = new Employee(payload);
+			state.employeesArray.push(employee.addEmployee());
 		},
 	},
 });

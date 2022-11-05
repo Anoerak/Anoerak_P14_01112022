@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 100vh;
+	/* height: 100vh; */
 	margin-left: 12rem;
 	background-color: var(--secondary-color);
 }
@@ -24,6 +24,7 @@ section {
 	border-radius: 1.25rem;
 	font-family: 'NunitoSans-Regular';
 	color: var(--tertiary-color);
+	margin-bottom: 2rem;
 }
 
 section form {

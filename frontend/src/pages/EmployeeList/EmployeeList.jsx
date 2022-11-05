@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import DataTable from 'react-data-table-component';
+import { useSelector } from 'react-redux';
 
 import datas from '../../assets/datas.json';
 
@@ -9,8 +10,15 @@ import SearchBar from '../../components/SearchBar/SearchBar';
 import './EmployeeList.css';
 
 const EmployeeList = () => {
+	const [displayedDatas, setDisplayedDatas] = useState([]);
+	const reduxDatas = useSelector((state) => state.employees.employeesArray);
+	console.log('reduxDatas: ', reduxDatas);
 	const headerTitle = 'Current Employees';
 	const path = 'HRNet - Employees List';
+
+	useEffect(() => {
+		setDisplayedDatas(localStorage.getItem('mockedDatas') === 'true' ? reduxDatas : datas);
+	}, [displayedDatas, reduxDatas]);
 
 	const columns = [
 		{
@@ -70,7 +78,7 @@ const EmployeeList = () => {
 				<DataTable
 					title="Employee List"
 					columns={columns}
-					data={datas}
+					data={displayedDatas}
 					pagination
 					paginationRowsPerPageOptions={[5, 10, 15, 20, 25, 30]}
 					paginationPerPage={5}

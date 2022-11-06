@@ -3,6 +3,12 @@ import PropTypes from 'prop-types';
 
 import './Header.css';
 
+/**
+ *
+ * @param {*} props
+ * @returns Header component with the title and the path
+ */
+
 const Header = (props) => {
 	return (
 		<header className="employeeList__header">
@@ -12,6 +18,7 @@ const Header = (props) => {
 	);
 };
 
+// PropTypes
 Header.propTypes = {
 	title: PropTypes.string.isRequired,
 };

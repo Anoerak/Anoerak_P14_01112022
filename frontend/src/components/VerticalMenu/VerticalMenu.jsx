@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { solid, regular } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 import Logo from '../../assets/img/logo.jpg';
 
 import './VerticalMenu.css';
+
+/**
+ *
+ * @returns VerticalMenu component
+ */
 
 const VerticalMenu = () => {
 	/* Initiate the State for the toggle which will provided API datas or Mocked datas */
@@ -63,7 +68,7 @@ const VerticalMenu = () => {
 					onClick={() => datasOrigin()}
 				/>
 				<label htmlFor="switch" className="toggle"></label>
-				<h3> Redux / Mocked Datas</h3>
+				<h3> Mocked Datas / Redux</h3>
 			</div>
 		</div>
 	);

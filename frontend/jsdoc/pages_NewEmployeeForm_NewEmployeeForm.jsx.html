@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: pages/NewEmployeeForm/NewEmployeeForm.jsx</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: pages/NewEmployeeForm/NewEmployeeForm.jsx</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import axios from 'axios';
+
+import Header from '../../components/Header/Header';
+
+import './NewEmployeeForm.css';
+import useFetch from '../../utils/hook/useFetch';
+
+/**
+ * @returns {JSX.Element}
+ * @constructor
+ * @description NewEmployeeForm component
+ * @description This component is the form to add a new employee
+ * @description It displays the header with the title and the path
+ * @description It displays the form to add a new employee
+ */
+
+const NewEmployeeForm = () => {
+	// Variables for the Header component
+	const navigate = useNavigate();
+	const headerTitle = 'Create Employees';
+	const path = 'HRNet - Add Employee';
+
+	// Fetching the states &amp; department from the JSON-Server and store them in the redux store
+	useFetch('http://localhost:8080/', 'states');
+	useFetch('http://localhost:8080/', 'departments');
+	const statesArray = useSelector((state) => state.employees.statesArray);
+	const departmentsArray = useSelector((state) => state.employees.departmentsArray);
+
+	// Function to handle the submit event of the form and send the datas to the JSON-Server
+	function createEmployee() {
+		let newEmployee = {
+			id: document.getElementById('startDate').value + document.getElementById('zip').value,
+			firstName: document.getElementById('firstName').value,
+			lastName: document.getElementById('lastName').value,
+			birthDate: document.getElementById('birthDate').value,
+			startDate: document.getElementById('startDate').value,
+			department: document.getElementById('department').value,
+			address: {
+				street: document.getElementById('street').value,
+				city: document.getElementById('city').value,
+				state: document.getElementById('state').value,
+				zip: document.getElementById('zip').value,
+			},
+		};
+		axios
+			.post('http://localhost:8080/employees', newEmployee)
+			.then((response) => {
+				console.log(response);
+				navigate('/');
+			})
+			.catch((error) => {
+				console.log(error);
+			});
+	}
+
+	return (
+		&lt;div className="createEmployee_container">
+			&lt;Header title={headerTitle} path={path} />
+			&lt;nav className="createEmployee__nav">&lt;/nav>
+			&lt;section className="createEmployee__formContainer">
+				&lt;form
+					onSubmit={(e) => {
+						e.preventDefault();
+						createEmployee();
+					}}
+				>
+					&lt;div className="form-group">
+						&lt;label htmlFor="firstName">First Name&lt;/label>
+						&lt;input type="text" name="firstName" id="firstName" />
+					&lt;/div>
+					&lt;div className="form-group">
+						&lt;label htmlFor="lastName">Last Name&lt;/label>
+						&lt;input type="text" name="lastName" id="lastName" />
+					&lt;/div>
+					&lt;div className="form-group">
+						&lt;label htmlFor="birthDate">Date of Birth&lt;/label>
+						&lt;input type="date" name="birthDate" id="birthDate" />
+					&lt;/div>
+					&lt;div className="form-group">
+						&lt;label htmlFor="startDate">Start Date&lt;/label>
+						&lt;input type="date" name="startDate" id="startDate" />
+					&lt;/div>
+					&lt;fieldset>
+						&lt;legend>
+							&lt;h2>Address&lt;/h2>
+						&lt;/legend>
+						&lt;div className="form-group">
+							&lt;label htmlFor="street">Street&lt;/label>
+							&lt;input type="text" name="street" id="street" />
+						&lt;/div>
+						&lt;div className="form-group">
+							&lt;label htmlFor="city">City&lt;/label>
+							&lt;input type="text" name="city" id="city" />
+						&lt;/div>
+						&lt;div className="form-group">
+							&lt;label htmlFor="state">State&lt;/label>
+							&lt;select name="state" id="state">
+								{statesArray.map((state) => (
+									&lt;option key={state.value + state.state_id} value={state.value}>
+										{state.label}
+									&lt;/option>
+								))}
+							&lt;/select>
+						&lt;/div>
+						&lt;div className="form-group">
+							&lt;label htmlFor="zip">Zip&lt;/label>
+							&lt;input type="number" name="zip" id="zip" />
+						&lt;/div>
+					&lt;/fieldset>
+					&lt;div className="form-group">
+						&lt;label htmlFor="department">Department&lt;/label>
+						&lt;select name="department" id="department">
+							{departmentsArray.map((department) => (
+								&lt;option
+									key={department.department_id + department.department_id}
+									value={department.department_name}
+								>
+									{department.department_name}
+								&lt;/option>
+							))}
+						&lt;/select>
+					&lt;/div>
+					&lt;button className="validate-button" type="submit">
+						Valider
+					&lt;/button>
+				&lt;/form>
+			&lt;/section>
+		&lt;/div>
+	);
+};
+
+export default NewEmployeeForm;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Employee.exports.Employee.html">exports.Employee</a></li><li><a href="EmployeeList.html">EmployeeList</a></li><li><a href="NewEmployeeForm.html">NewEmployeeForm</a></li></ul><h3>Global</h3><ul><li><a href="global.html#App">App</a></li><li><a href="global.html#Error">Error</a></li><li><a href="global.html#Header">Header</a></li><li><a href="global.html#Loader">Loader</a></li><li><a href="global.html#SearchBar">SearchBar</a></li><li><a href="global.html#VerticalMenu">VerticalMenu</a></li><li><a href="global.html#employeesSlice">employeesSlice</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.0</a> on Sun Nov 06 2022 12:01:19 GMT+0100 (Central European Standard Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

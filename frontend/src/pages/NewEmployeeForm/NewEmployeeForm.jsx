@@ -1,9 +1,10 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import axios from 'axios';
 
 import Header from '../../components/Header/Header';
+
+import Modal from 'api-modal-module';
 
 import './NewEmployeeForm.css';
 import useFetch from '../../utils/hook/useFetch';
@@ -19,7 +20,6 @@ import useFetch from '../../utils/hook/useFetch';
 
 const NewEmployeeForm = () => {
 	// Variables for the Header component
-	const navigate = useNavigate();
 	const headerTitle = 'Create Employees';
 	const path = 'HRNet - Add Employee';
 
@@ -28,6 +28,10 @@ const NewEmployeeForm = () => {
 	useFetch('http://localhost:8080/', 'departments');
 	const statesArray = useSelector((state) => state.employees.statesArray);
 	const departmentsArray = useSelector((state) => state.employees.departmentsArray);
+
+	// Variables for the Modal Node Package
+	const [showModal, setShowModal] = useState({ display: 'none' });
+	const [apiResponse, setApiResponse] = useState({ status: 418, statusText: "I'm a teapot", data: {} });
 
 	// Function to handle the submit event of the form and send the datas to the JSON-Server
 	function createEmployee() {
@@ -48,10 +52,25 @@ const NewEmployeeForm = () => {
 		axios
 			.post('http://localhost:8080/employees', newEmployee)
 			.then((response) => {
+				// Setting the response from the JSON-Server to the apiResponse state
 				console.log(response);
-				navigate('/');
+				setApiResponse({
+					status: response.status,
+					statusText: response.statusText,
+					data: response.data,
+				});
+				// Setting the display of the Modal to 'flex'
+				setShowModal({ modal__display: { display: 'flex' } });
 			})
 			.catch((error) => {
+				// Setting the response from the JSON-Server to the apiResponse state
+				setApiResponse({
+					status: error.response.status,
+					statusText: `${error.message} ${error.response.statusText}`,
+					data: error,
+				});
+				// Setting the display of the Modal to 'flex'
+				setShowModal({ modal__display: { display: 'flex' } });
 				console.log(error);
 			});
 	}
@@ -61,6 +80,7 @@ const NewEmployeeForm = () => {
 			<Header title={headerTitle} path={path} />
 			<nav className="createEmployee__nav"></nav>
 			<section className="createEmployee__formContainer">
+				<Modal apiResponse={apiResponse} modal__display={showModal} />
 				<form
 					onSubmit={(e) => {
 						e.preventDefault();

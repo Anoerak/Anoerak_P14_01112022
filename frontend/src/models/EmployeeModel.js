@@ -11,6 +11,7 @@ export class Employee {
 	constructor(data) {
 		this.data = data;
 		this.employee = {};
+		this.response = {};
 	}
 
 	// Method to add a new employee to the array

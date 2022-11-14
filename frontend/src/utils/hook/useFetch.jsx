@@ -13,6 +13,7 @@ const useFetch = (url, option) => {
 	const dispatch = useDispatch();
 
 	// Set the state of the data
+	const [data, setData] = useState([]);
 	const [loading, setLoading] = useState(true);
 	const [{ isError, errorMessage }, setError] = useState({ isError: false, errorMessage: '' });
 
@@ -26,6 +27,7 @@ const useFetch = (url, option) => {
 			const fetchEmployees = async (url, option) => {
 				try {
 					const response = await axios.get(url + option);
+					setData(response);
 					const datas = response.data;
 					dispatch(emptyEmployeesArray());
 					datas.forEach((employee) => dispatch(addEmployee(employee)));
@@ -71,7 +73,7 @@ const useFetch = (url, option) => {
 		}
 	}, [url, dispatch, option]);
 
-	return { loading, isError, errorMessage };
+	return { loading, isError, errorMessage, data };
 };
 
 export default useFetch;

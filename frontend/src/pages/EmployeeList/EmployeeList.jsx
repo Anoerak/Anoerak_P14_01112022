@@ -33,8 +33,9 @@ const EmployeeList = () => {
 	const path = 'HRNet - Employees List';
 
 	// Variables to manage the loading, error and load the datas from redux store
+	const baseUrl = useSelector((state) => state.employees.baseUrl);
 	const [displayedDatas, setDisplayedDatas] = useState([]);
-	const { loading, isError, errorMessage } = useFetch('http://localhost:8080/', 'employees');
+	const { loading, isError, errorMessage } = useFetch(baseUrl, 'employees');
 	const reduxDatas = useSelector((state) => state.employees.employeesArray);
 
 	// Get the search value from the SearchBar component stored in the redux store

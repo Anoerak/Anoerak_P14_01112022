@@ -16,6 +16,7 @@ import { Employee } from '../../models/EmployeeModel';
 export const employeesSlice = createSlice({
 	name: 'employees',
 	initialState: {
+		baseUrl: 'http://localhost:8080/',
 		employeesArray: [],
 		searchValue: '',
 		statesArray: [],

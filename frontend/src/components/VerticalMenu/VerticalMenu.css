@@ -3,10 +3,32 @@
 	height: 100vh;
 	min-width: 12rem;
 	background-color: var(--quaternary-color);
+	transition: all 0.5s ease-in-out;
+}
+
+.menu-button {
+	display: none;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	text-align: center;
+	font-size: 0.75rem;
+	font-weight: 600;
+	position: absolute;
+	top: 10rem;
+	right: -1.5rem;
+	width: 1.5rem;
+	height: 7.5rem;
+	background-color: var(--primary-color);
+	opacity: 1;
+	z-index: 10;
+	border-radius: 0 1rem 1rem 0;
+	align-items: center;
+	justify-content: space-around;
+	cursor: pointer;
 }
 
 .vertical-menu .logo img {
-	width: 10rem;
+	/* width: 10rem; */
 	margin-bottom: 5rem;
 }
 
@@ -73,4 +95,16 @@
 .datas__origin h3 {
 	font-size: 0.75rem;
 	color: var(--tertiary-color);
+}
+
+@media screen and (max-width: 992px) {
+	.vertical-menu {
+		position: absolute;
+		height: 100%;
+		z-index: 10;
+		left: -12rem;
+	}
+	.vertical-menu .menu-button {
+		display: flex;
+	}
 }

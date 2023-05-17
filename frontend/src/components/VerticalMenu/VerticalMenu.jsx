@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid, regular } from '@fortawesome/fontawesome-svg-core/import.macro';
@@ -26,48 +26,62 @@ const VerticalMenu = () => {
 		return toggle;
 	};
 
+	// On click on .vertical-menu::after, we display the menu
+	const menuToggle = useCallback(() => {
+		const menu = document.querySelector('.vertical-menu');
+		const menuToggle = document.querySelector('.menu-button');
+		menuToggle.addEventListener('click', () => {
+			menu.style.left === '0px' ? (menu.style.left = '-12rem') : (menu.style.left = '0px');
+		});
+	}, []);
+
+	useEffect(() => {
+		menuToggle();
+	}, [menuToggle]);
+
 	return (
-		<div className="vertical-menu">
-			<div className="logo">
-				<img src={Logo} alt="Logo" />
+		<div className='vertical-menu'>
+			<div className='menu-button'>Menu</div>
+			<div className='logo'>
+				<img src={Logo} width={180} height={170} alt='Logo' />
 			</div>
-			<div className="menu">
+			<div className='menu'>
 				<ul>
 					<li>
-						<Link to="/error">
-							<FontAwesomeIcon className="icons" icon={solid('chart-pie')} />
+						<Link to='/error'>
+							<FontAwesomeIcon className='icons' icon={solid('chart-pie')} />
 							Dashboard
 						</Link>
 					</li>
 					<li>
-						<Link to="/">
-							<FontAwesomeIcon className="icons" icon={regular('user')} />
+						<Link to='/'>
+							<FontAwesomeIcon className='icons' icon={regular('user')} />
 							Employees List
 						</Link>
 					</li>
 					<li>
-						<Link to="/createEmployee">
-							<FontAwesomeIcon className="icons" icon={solid('user-plus')} />
+						<Link to='/createEmployee'>
+							<FontAwesomeIcon className='icons' icon={solid('user-plus')} />
 							Add Employee
 						</Link>
 					</li>
 					<li>
-						<Link to="/error">
-							<FontAwesomeIcon className="icons" icon={solid('sliders')} />
+						<Link to='/error'>
+							<FontAwesomeIcon className='icons' icon={solid('sliders')} />
 							Settings
 						</Link>
 					</li>
 				</ul>
 			</div>
-			<div className="datas__origin">
+			<div className='datas__origin'>
 				<input
-					type="checkbox"
-					id="switch"
-					className="checkbox"
+					type='checkbox'
+					id='switch'
+					className='checkbox'
 					defaultChecked={localStorage.getItem('mockedDatas') === 'true' ? true : false}
 					onClick={() => datasOrigin()}
 				/>
-				<label htmlFor="switch" className="toggle"></label>
+				<label htmlFor='switch' className='toggle'></label>
 				<h3> Mocked Datas / Redux</h3>
 			</div>
 		</div>

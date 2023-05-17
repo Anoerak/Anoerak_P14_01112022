@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* height: 100vh; */
+	min-height: 100vh;
 	margin-left: 12rem;
 	background-color: var(--secondary-color);
 }
@@ -65,4 +65,30 @@ section form .form-group input {
 
 section button {
 	margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+	.createEmployee_container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		min-height: 100vh;
+		margin: 0;
+		padding: 1rem;
+	}
+
+	.employeeList__header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.employeeList__nav {
+		width: auto;
+	}
+
+	.createEmployee__formContainer {
+		min-width: 285px;
+	}
 }

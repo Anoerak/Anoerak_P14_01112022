@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import DataTable from 'react-data-table-component';
+import React, { useState, useEffect, lazy } from 'react';
 import { useSelector } from 'react-redux';
 
 import useFetch from '../../utils/hook/useFetch';
@@ -11,6 +10,8 @@ import Loader from '../../components/Loader/Loader';
 
 import './EmployeeList.css';
 
+// import DataTable from 'react-data-table-component';
+const DataTable = lazy(() => import('react-data-table-component'));
 /**
  *
  * @returns {JSX.Element}
@@ -123,19 +124,19 @@ const EmployeeList = () => {
 	];
 
 	return (
-		<div className="employeeList_container">
+		<div className='employeeList_container'>
 			<Header title={headerTitle} path={path} />
-			<nav className="employeeList__nav">
+			<nav className='employeeList__nav'>
 				<SearchBar />
 			</nav>
-			<section className="employeeList__tableContainer">
+			<section className='employeeList__tableContainer'>
 				{loading ? (
 					<Loader />
 				) : isError ? (
-					<div className="employeeList__error">{errorMessage}</div>
+					<div className='employeeList__error'>{errorMessage}</div>
 				) : (
 					<DataTable
-						title="Employee List"
+						title='Employee List'
 						columns={columns}
 						data={displayedDatas}
 						pagination

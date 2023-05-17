@@ -1,11 +1,13 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState, lazy } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid, regular } from '@fortawesome/fontawesome-svg-core/import.macro';
 
-import Logo from '../../assets/img/logo.jpg';
-
 import './VerticalMenu.css';
+
+import Logo from '../../assets/img/logo.webp';
+
+// const Logo = lazy(() => import('../../assets/img/logo.jpg'));
 
 /**
  *
@@ -28,10 +30,23 @@ const VerticalMenu = () => {
 
 	// On click on .vertical-menu::after, we display the menu
 	const menuToggle = useCallback(() => {
-		const menu = document.querySelector('.vertical-menu');
+		const verticalMenu = document.querySelector('.vertical-menu');
 		const menuToggle = document.querySelector('.menu-button');
+		const menu = document.querySelector('.menu');
+		const logo = document.querySelector('.logo');
+		const datasOrigin = document.querySelector('.datas__origin');
 		menuToggle.addEventListener('click', () => {
-			menu.style.left === '0px' ? (menu.style.left = '-12rem') : (menu.style.left = '0px');
+			if (verticalMenu.style.left === '0px') {
+				verticalMenu.style.left = '-12rem';
+				menu.style.display = 'none';
+				logo.style.display = 'none';
+				datasOrigin.style.display = 'none';
+			} else {
+				verticalMenu.style.left = '0px';
+				menu.style.display = 'block';
+				logo.style.display = 'block';
+				datasOrigin.style.display = 'block';
+			}
 		});
 	}, []);
 
@@ -43,7 +58,7 @@ const VerticalMenu = () => {
 		<div className='vertical-menu'>
 			<div className='menu-button'>Menu</div>
 			<div className='logo'>
-				<img src={Logo} width={180} height={170} alt='Logo' />
+				<img src={Logo} width={160} height={147.2} alt='Logo' />
 			</div>
 			<div className='menu'>
 				<ul>

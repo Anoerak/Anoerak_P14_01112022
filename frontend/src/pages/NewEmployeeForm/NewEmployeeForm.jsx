@@ -5,7 +5,6 @@ import axios from 'axios';
 import Header from '../../components/Header/Header';
 
 import Modal from 'api-modal-for-react';
-// import Modal from 'api-modal-module';
 // import { Modal } from '@Anoerak/api-module-2023';
 
 import './NewEmployeeForm.css';

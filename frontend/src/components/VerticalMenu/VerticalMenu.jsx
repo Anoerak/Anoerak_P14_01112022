@@ -28,7 +28,7 @@ const VerticalMenu = () => {
 		return toggle;
 	};
 
-	// On click on .vertical-menu::after, we display the menu
+	// On click on .menu-button, we display the menu
 	const menuToggle = useCallback(() => {
 		const verticalMenu = document.querySelector('.vertical-menu');
 		const menuToggle = document.querySelector('.menu-button');
@@ -49,6 +49,22 @@ const VerticalMenu = () => {
 			}
 		});
 	}, []);
+
+	// When innerWidth > 992px, we switch the menu, logo and datasOrigin to display: block
+	window.addEventListener('resize', () => {
+		const menu = document.querySelector('.menu');
+		const logo = document.querySelector('.logo');
+		const datasOrigin = document.querySelector('.datas__origin');
+		if (window.innerWidth > 992) {
+			menu.style.display = 'block';
+			logo.style.display = 'block';
+			datasOrigin.style.display = 'block';
+		} else {
+			menu.style.display = 'none';
+			logo.style.display = 'none';
+			datasOrigin.style.display = 'none';
+		}
+	});
 
 	useEffect(() => {
 		menuToggle();

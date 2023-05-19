@@ -390,6 +390,62 @@
         "state": "AL",
         "zip": "9"
       }
+    },
+    {
+      "id": "2008-06-210000",
+      "firstName": "Captain",
+      "lastName": "America",
+      "birthDate": "1934-05-01",
+      "startDate": "2008-06-21",
+      "department": "Human Resources",
+      "address": {
+        "street": "None",
+        "city": "Every",
+        "state": "AL",
+        "zip": "0000"
+      }
+    },
+    {
+      "id": "2009-09-0191101",
+      "firstName": "Iron",
+      "lastName": "Man",
+      "birthDate": "0072-01-28",
+      "startDate": "2009-09-01",
+      "department": "Engineering",
+      "address": {
+        "street": "Stark Street",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "91101"
+      }
+    },
+    {
+      "id": "2011-03-2363301",
+      "firstName": "The",
+      "lastName": "Hulk",
+      "birthDate": "1965-01-01",
+      "startDate": "2011-03-23",
+      "department": "Legal",
+      "address": {
+        "street": "Somewhere",
+        "city": "Everywhere",
+        "state": "MO",
+        "zip": "63301"
+      }
+    },
+    {
+      "id": "2023-05-2601000",
+      "firstName": "David",
+      "lastName": "Pierru",
+      "birthDate": "2023-05-01",
+      "startDate": "2023-05-26",
+      "department": "Sales",
+      "address": {
+        "street": "une rue",
+        "city": "une ville",
+        "state": "AL",
+        "zip": "01000"
+      }
     }
   ]
 }

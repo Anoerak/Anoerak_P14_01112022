@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import axios from 'axios';
+// import { DatePicker } from 'react-rainbow-components';
 
 import Header from '../../components/Header/Header';
 
@@ -20,6 +21,15 @@ import useFetch from '../../utils/hook/useFetch';
  */
 
 const NewEmployeeForm = () => {
+	// const [birthDate, setBirthDate] = useState();
+	// const [startDate, setStartDate] = useState();
+
+	// function onBirthDateChange(date) {
+	// 	setBirthDate(date);
+	// }
+	// function onStartDateChange(date) {
+	// 	setStartDate(date);
+	// }
 	// Variables for the Header component
 	const headerTitle = 'Create Employees';
 	const path = 'HRNet - Add Employee';
@@ -41,7 +51,9 @@ const NewEmployeeForm = () => {
 			firstName: document.getElementById('firstName').value,
 			lastName: document.getElementById('lastName').value,
 			birthDate: document.getElementById('birthDate').value,
+			// birthDate: document.getElementsByName('birthDate').value,
 			startDate: document.getElementById('startDate').value,
+			// startDate: document.getElementsByName('startDate').value,
 			department: document.getElementById('department').value,
 			address: {
 				street: document.getElementById('street').value,
@@ -119,10 +131,24 @@ const NewEmployeeForm = () => {
 					<div className='form-group'>
 						<label htmlFor='birthDate'>Date of Birth</label>
 						<input type='date' name='birthDate' id='birthDate' />
+						{/* <DatePicker
+							id='birthDate'
+							name='birthDate'
+							value={birthDate}
+							onChange={onBirthDateChange}
+							formatStyle='large'
+						/> */}
 					</div>
 					<div className='form-group'>
 						<label htmlFor='startDate'>Start Date</label>
 						<input type='date' name='startDate' id='startDate' />
+						{/* <DatePicker
+							id='startDate'
+							name='startDate'
+							value={startDate}
+							onChange={onStartDateChange}
+							formatStyle='large'
+						/> */}
 					</div>
 					<fieldset>
 						<legend>

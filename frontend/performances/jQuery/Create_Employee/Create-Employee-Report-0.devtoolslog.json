@@ -1,0 +1,3095 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "2176CAD3052085C361F965F69E2F9FC4",
+      "name": "commit",
+      "timestamp": 80604.784785
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "2176CAD3052085C361F965F69E2F9FC4",
+      "name": "DOMContentLoaded",
+      "timestamp": 80604.784818
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "2176CAD3052085C361F965F69E2F9FC4",
+      "name": "load",
+      "timestamp": 80604.784939
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "2176CAD3052085C361F965F69E2F9FC4",
+      "name": "networkAlmostIdle",
+      "timestamp": 80604.785066
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "2176CAD3052085C361F965F69E2F9FC4",
+      "name": "networkIdle",
+      "timestamp": 80604.785066
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "http://127.0.0.1:5500/index.html",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "sec-ch-ua-mobile": "?1",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80604.872598,
+      "wallTime": 1684774122.056246,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Document",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:5500",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80604.873166
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "public, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Length": "4135",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 22 May 2023 16:48:42 GMT",
+        "ETag": "W/\"a52-183ea540640\"",
+        "Keep-Alive": "timeout=5",
+        "Last-Modified": "Tue, 18 Oct 2022 09:01:58 GMT",
+        "Vary": "Origin"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nVary: Origin\r\nAccess-Control-Allow-Credentials: true\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Tue, 18 Oct 2022 09:01:58 GMT\r\nETag: W/\"a52-183ea540640\"\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 4135\r\nDate: Mon, 22 May 2023 16:48:42 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.87667,
+      "type": "Document",
+      "response": {
+        "url": "http://127.0.0.1:5500/index.html",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Credentials": "true",
+          "Cache-Control": "public, max-age=0",
+          "Connection": "keep-alive",
+          "Content-Length": "4135",
+          "Content-Type": "text/html; charset=UTF-8",
+          "Date": "Mon, 22 May 2023 16:48:42 GMT",
+          "ETag": "W/\"a52-183ea540640\"",
+          "Keep-Alive": "timeout=5",
+          "Last-Modified": "Tue, 18 Oct 2022 09:01:58 GMT",
+          "Vary": "Origin"
+        },
+        "mimeType": "text/html",
+        "connectionReused": true,
+        "connectionId": 24,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 5500,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 348,
+        "timing": {
+          "requestTime": 80604.873166,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.308,
+          "sendEnd": 0.33,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 3.119
+        },
+        "responseTime": 1684774122059.513,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "name": "init",
+      "timestamp": 80604.878362
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Runtime.executionContextsCleared",
+    "params": {},
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "22E6D22D02FF1FD409D30E48A9776EC6",
+        "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+        "url": "http://127.0.0.1:5500/index.html",
+        "domainAndRegistry": "",
+        "securityOrigin": "http://127.0.0.1:5500",
+        "mimeType": "text/html",
+        "adFrameStatus": {
+          "adFrameType": "none"
+        },
+        "secureContextType": "SecureLocalhost",
+        "crossOriginIsolatedContextType": "NotIsolated",
+        "gatedAPIFeatures": []
+      },
+      "type": "Navigation"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Runtime.executionContextCreated",
+    "params": {
+      "context": {
+        "id": 7,
+        "origin": "http://127.0.0.1:5500",
+        "name": "",
+        "uniqueId": "5372407698344039457.5100617278516920875",
+        "auxData": {
+          "isDefault": true,
+          "type": "default",
+          "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+        }
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.880993,
+      "dataLength": 4135,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.2",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://127.0.0.1:5500/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 80604.881191,
+      "wallTime": 1684774122.065054,
+      "initiator": {
+        "type": "parser",
+        "url": "http://127.0.0.1:5500/index.html",
+        "lineNumber": 3,
+        "columnNumber": 87
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.3",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "http://127.0.0.1:5500/jquery.datetimepicker.full.min.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://127.0.0.1:5500/index.html",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80604.882341,
+      "wallTime": 1684774122.065961,
+      "initiator": {
+        "type": "parser",
+        "url": "http://127.0.0.1:5500/index.html",
+        "lineNumber": 4,
+        "columnNumber": 56
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.4",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "http://127.0.0.1:5500/jquery.datetimepicker.css",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://127.0.0.1:5500/index.html",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80604.882964,
+      "wallTime": 1684774122.066609,
+      "initiator": {
+        "type": "parser",
+        "url": "http://127.0.0.1:5500/index.html",
+        "lineNumber": 5,
+        "columnNumber": 66
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.5",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://127.0.0.1:5500/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 80604.88316,
+      "wallTime": 1684774122.06676,
+      "initiator": {
+        "type": "parser",
+        "url": "http://127.0.0.1:5500/index.html",
+        "lineNumber": 6,
+        "columnNumber": 100
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://127.0.0.1:5500/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 80604.883248,
+      "wallTime": 1684774122.066845,
+      "initiator": {
+        "type": "parser",
+        "url": "http://127.0.0.1:5500/index.html",
+        "lineNumber": 7,
+        "columnNumber": 119
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.7",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "https://code.jquery.com/ui/1.12.1/jquery-ui.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://127.0.0.1:5500/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 80604.883335,
+      "wallTime": 1684774122.066932,
+      "initiator": {
+        "type": "parser",
+        "url": "http://127.0.0.1:5500/index.html",
+        "lineNumber": 8,
+        "columnNumber": 69
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.8",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://127.0.0.1:5500/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 80604.883404,
+      "wallTime": 1684774122.067003,
+      "initiator": {
+        "type": "parser",
+        "url": "http://127.0.0.1:5500/index.html",
+        "lineNumber": 9,
+        "columnNumber": 98
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.9",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "http://127.0.0.1:5500/app.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://127.0.0.1:5500/index.html",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80604.883477,
+      "wallTime": 1684774122.067075,
+      "initiator": {
+        "type": "parser",
+        "url": "http://127.0.0.1:5500/index.html",
+        "lineNumber": 10,
+        "columnNumber": 29
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.10",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "http://127.0.0.1:5500/app.css",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://127.0.0.1:5500/index.html",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80604.883556,
+      "wallTime": 1684774122.067155,
+      "initiator": {
+        "type": "parser",
+        "url": "http://127.0.0.1:5500/index.html",
+        "lineNumber": 11,
+        "columnNumber": 48
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Runtime.executionContextCreated",
+    "params": {
+      "context": {
+        "id": 8,
+        "origin": "://",
+        "name": "__puppeteer_utility_world__",
+        "uniqueId": "3605599227020578303.-8448189367918433732",
+        "auxData": {
+          "isDefault": false,
+          "type": "isolated",
+          "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+        }
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.3",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/index.html",
+        "Sec-Fetch-Dest": "script",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80604.883426
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.4",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/index.html",
+        "Sec-Fetch-Dest": "style",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80604.883542
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.10",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/index.html",
+        "Sec-Fetch-Dest": "style",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80604.884657
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.9",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/index.html",
+        "Sec-Fetch-Dest": "script",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80604.884542
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.876599,
+      "encodedDataLength": 4483,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.3",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "public, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Length": "91313",
+        "Content-Type": "application/javascript; charset=UTF-8",
+        "Date": "Mon, 22 May 2023 16:48:42 GMT",
+        "ETag": "W/\"164b1-183ea5be036\"",
+        "Keep-Alive": "timeout=5",
+        "Last-Modified": "Tue, 18 Oct 2022 09:10:33 GMT",
+        "Vary": "Origin"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nVary: Origin\r\nAccess-Control-Allow-Credentials: true\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Tue, 18 Oct 2022 09:10:33 GMT\r\nETag: W/\"164b1-183ea5be036\"\r\nContent-Type: application/javascript; charset=UTF-8\r\nContent-Length: 91313\r\nDate: Mon, 22 May 2023 16:48:42 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.3",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.887822,
+      "type": "Script",
+      "response": {
+        "url": "http://127.0.0.1:5500/jquery.datetimepicker.full.min.js",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:48:42 GMT",
+          "Last-Modified": "Tue, 18 Oct 2022 09:10:33 GMT",
+          "ETag": "W/\"164b1-183ea5be036\"",
+          "Vary": "Origin",
+          "Content-Type": "application/javascript; charset=UTF-8",
+          "Cache-Control": "public, max-age=0",
+          "Access-Control-Allow-Credentials": "true",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Keep-Alive": "timeout=5",
+          "Content-Length": "91313"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 24,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 5500,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 364,
+        "timing": {
+          "requestTime": 80604.883426,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.149,
+          "sendEnd": 0.177,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 4.002
+        },
+        "responseTime": 1684774122070.924,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.3",
+      "timestamp": 80604.88787,
+      "dataLength": 3732,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.4",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "public, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Length": "18419",
+        "Content-Type": "text/css; charset=UTF-8",
+        "Date": "Mon, 22 May 2023 16:48:42 GMT",
+        "ETag": "W/\"47f3-183ea540640\"",
+        "Keep-Alive": "timeout=5",
+        "Last-Modified": "Tue, 18 Oct 2022 09:01:58 GMT",
+        "Vary": "Origin"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nVary: Origin\r\nAccess-Control-Allow-Credentials: true\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Tue, 18 Oct 2022 09:01:58 GMT\r\nETag: W/\"47f3-183ea540640\"\r\nContent-Type: text/css; charset=UTF-8\r\nContent-Length: 18419\r\nDate: Mon, 22 May 2023 16:48:42 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.3",
+      "timestamp": 80604.888382,
+      "dataLength": 61804,
+      "encodedDataLength": 65536
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.4",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.888795,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://127.0.0.1:5500/jquery.datetimepicker.css",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:48:42 GMT",
+          "Last-Modified": "Tue, 18 Oct 2022 09:01:58 GMT",
+          "ETag": "W/\"47f3-183ea540640\"",
+          "Vary": "Origin",
+          "Content-Type": "text/css; charset=UTF-8",
+          "Cache-Control": "public, max-age=0",
+          "Access-Control-Allow-Credentials": "true",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Keep-Alive": "timeout=5",
+          "Content-Length": "18419"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 33,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 5500,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 349,
+        "timing": {
+          "requestTime": 80604.883542,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.247,
+          "sendEnd": 0.262,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 4.897
+        },
+        "responseTime": 1684774122071.935,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.4",
+      "timestamp": 80604.888827,
+      "dataLength": 3747,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.3",
+      "timestamp": 80604.88929,
+      "dataLength": 25777,
+      "encodedDataLength": 25777
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.10",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "public, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Length": "315",
+        "Content-Type": "text/css; charset=UTF-8",
+        "Date": "Mon, 22 May 2023 16:48:42 GMT",
+        "ETag": "W/\"13b-183ea540640\"",
+        "Keep-Alive": "timeout=5",
+        "Last-Modified": "Tue, 18 Oct 2022 09:01:58 GMT",
+        "Vary": "Origin"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nVary: Origin\r\nAccess-Control-Allow-Credentials: true\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Tue, 18 Oct 2022 09:01:58 GMT\r\nETag: W/\"13b-183ea540640\"\r\nContent-Type: text/css; charset=UTF-8\r\nContent-Length: 315\r\nDate: Mon, 22 May 2023 16:48:42 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.4",
+      "timestamp": 80604.889677,
+      "dataLength": 14672,
+      "encodedDataLength": 18419
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.4",
+      "timestamp": 80604.889206,
+      "encodedDataLength": 18768,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.3",
+      "timestamp": 80604.888594,
+      "encodedDataLength": 91677,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.9",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "public, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Length": "5887",
+        "Content-Type": "application/javascript; charset=UTF-8",
+        "Date": "Mon, 22 May 2023 16:48:42 GMT",
+        "ETag": "W/\"16ff-183ea540640\"",
+        "Keep-Alive": "timeout=5",
+        "Last-Modified": "Tue, 18 Oct 2022 09:01:58 GMT",
+        "Vary": "Origin"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nVary: Origin\r\nAccess-Control-Allow-Credentials: true\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Tue, 18 Oct 2022 09:01:58 GMT\r\nETag: W/\"16ff-183ea540640\"\r\nContent-Type: application/javascript; charset=UTF-8\r\nContent-Length: 5887\r\nDate: Mon, 22 May 2023 16:48:42 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.10",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.89008,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://127.0.0.1:5500/app.css",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:48:42 GMT",
+          "Last-Modified": "Tue, 18 Oct 2022 09:01:58 GMT",
+          "ETag": "W/\"13b-183ea540640\"",
+          "Vary": "Origin",
+          "Content-Type": "text/css; charset=UTF-8",
+          "Cache-Control": "public, max-age=0",
+          "Access-Control-Allow-Credentials": "true",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Keep-Alive": "timeout=5",
+          "Content-Length": "315"
+        },
+        "mimeType": "text/css",
+        "connectionReused": false,
+        "connectionId": 84,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 5500,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 346,
+        "timing": {
+          "requestTime": 80604.884657,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.111,
+          "dnsEnd": 0.117,
+          "connectStart": 0.117,
+          "connectEnd": 0.459,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.491,
+          "sendEnd": 0.514,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 5.17
+        },
+        "responseTime": 1684774122073.303,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.9",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.890165,
+      "type": "Script",
+      "response": {
+        "url": "http://127.0.0.1:5500/app.js",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:48:42 GMT",
+          "Last-Modified": "Tue, 18 Oct 2022 09:01:58 GMT",
+          "ETag": "W/\"16ff-183ea540640\"",
+          "Vary": "Origin",
+          "Content-Type": "application/javascript; charset=UTF-8",
+          "Cache-Control": "public, max-age=0",
+          "Access-Control-Allow-Credentials": "true",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Keep-Alive": "timeout=5",
+          "Content-Length": "5887"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": false,
+        "connectionId": 88,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 5500,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 362,
+        "timing": {
+          "requestTime": 80604.884542,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.344,
+          "dnsEnd": 0.346,
+          "connectStart": 0.346,
+          "connectEnd": 0.579,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.638,
+          "sendEnd": 0.652,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 5.398
+        },
+        "responseTime": 1684774122073.509,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.10",
+      "timestamp": 80604.890386,
+      "dataLength": 315,
+      "encodedDataLength": 315
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.10",
+      "timestamp": 80604.890017,
+      "encodedDataLength": 661,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.9",
+      "timestamp": 80604.890462,
+      "dataLength": 3734,
+      "encodedDataLength": 3734
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.9",
+      "timestamp": 80604.890704,
+      "dataLength": 2153,
+      "encodedDataLength": 2153
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.9",
+      "timestamp": 80604.890631,
+      "encodedDataLength": 6249,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.6",
+      "associatedCookies": [],
+      "headers": {
+        ":authority": "cdnjs.cloudflare.com",
+        ":method": "GET",
+        ":path": "/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css",
+        ":scheme": "https",
+        "accept": "text/css,*/*;q=0.1",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "referer": "http://127.0.0.1:5500/",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\"",
+        "sec-fetch-dest": "style",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36"
+      },
+      "connectTiming": {
+        "requestTime": 80604.883841
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.5",
+      "associatedCookies": [],
+      "headers": {
+        ":authority": "cdnjs.cloudflare.com",
+        ":method": "GET",
+        ":path": "/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js",
+        ":scheme": "https",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "referer": "http://127.0.0.1:5500/",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\"",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36"
+      },
+      "connectTiming": {
+        "requestTime": 80604.883654
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.2",
+      "associatedCookies": [],
+      "headers": {
+        ":authority": "ajax.googleapis.com",
+        ":method": "GET",
+        ":path": "/ajax/libs/jquery/3.5.1/jquery.min.js",
+        ":scheme": "https",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "referer": "http://127.0.0.1:5500/",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\"",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36"
+      },
+      "connectTiming": {
+        "requestTime": 80604.882428
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.8",
+      "associatedCookies": [],
+      "headers": {
+        ":authority": "code.jquery.com",
+        ":method": "GET",
+        ":path": "/ui/1.12.1/themes/base/jquery-ui.css",
+        ":scheme": "https",
+        "accept": "text/css,*/*;q=0.1",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "referer": "http://127.0.0.1:5500/",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\"",
+        "sec-fetch-dest": "style",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36"
+      },
+      "connectTiming": {
+        "requestTime": 80604.884345
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.7",
+      "associatedCookies": [],
+      "headers": {
+        ":authority": "code.jquery.com",
+        ":method": "GET",
+        ":path": "/ui/1.12.1/jquery-ui.js",
+        ":scheme": "https",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "referer": "http://127.0.0.1:5500/",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\"",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36"
+      },
+      "connectTiming": {
+        "requestTime": 80604.884092
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.2",
+      "blockedCookies": [],
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "231887",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+        "content-encoding": "gzip",
+        "content-length": "31021",
+        "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/hosted-libraries-pushers",
+        "content-type": "text/javascript; charset=UTF-8",
+        "cross-origin-opener-policy": "same-origin; report-to=\"hosted-libraries-pushers\"",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Sat, 20 May 2023 00:23:55 GMT",
+        "expires": "Sun, 19 May 2024 00:23:55 GMT",
+        "last-modified": "Fri, 08 May 2020 07:05:03 GMT",
+        "report-to": "{\"group\":\"hosted-libraries-pushers\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/hosted-libraries-pushers\"}]}",
+        "server": "sffe",
+        "timing-allow-origin": "*",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "0"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.5",
+      "blockedCookies": [],
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "931978",
+        "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+        "cache-control": "public, max-age=30672000",
+        "cf-cache-status": "HIT",
+        "cf-cdnjs-via": "cfworker/kv",
+        "cf-ray": "7cb68c57be61d560-CDG",
+        "content-encoding": "br",
+        "content-length": "1399",
+        "content-type": "application/javascript; charset=utf-8",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Mon, 22 May 2023 16:48:42 GMT",
+        "etag": "\"5eb03ec2-1359\"",
+        "expires": "Sat, 11 May 2024 16:48:42 GMT",
+        "last-modified": "Mon, 04 May 2020 16:11:46 GMT",
+        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=LlTROkF9W2rAsQDF%2BX6UajqnlivQd5J4fE3e9qMA3GburbFhrmGFkSJ%2Fey%2B9CUQXaLcOrmCD9oJGoM0Gq2JkT%2B%2BxL7A%2BZWFjA3N7FAtcfbSEPHvzfqH6makA9RPznQSJ8vabBazTQN%2FRXyjZ8EkipEAi\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "server": "cloudflare",
+        "strict-transport-security": "max-age=15780000",
+        "timing-allow-origin": "*",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.5",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.952521,
+      "type": "Script",
+      "response": {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 22 May 2023 16:48:42 GMT",
+          "content-encoding": "br",
+          "x-content-type-options": "nosniff",
+          "cf-cache-status": "HIT",
+          "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "age": "931978",
+          "cross-origin-resource-policy": "cross-origin",
+          "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+          "content-length": "1399",
+          "timing-allow-origin": "*",
+          "last-modified": "Mon, 04 May 2020 16:11:46 GMT",
+          "server": "cloudflare",
+          "cf-cdnjs-via": "cfworker/kv",
+          "etag": "\"5eb03ec2-1359\"",
+          "strict-transport-security": "max-age=15780000",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=LlTROkF9W2rAsQDF%2BX6UajqnlivQd5J4fE3e9qMA3GburbFhrmGFkSJ%2Fey%2B9CUQXaLcOrmCD9oJGoM0Gq2JkT%2B%2BxL7A%2BZWFjA3N7FAtcfbSEPHvzfqH6makA9RPznQSJ8vabBazTQN%2FRXyjZ8EkipEAi\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "content-type": "application/javascript; charset=utf-8",
+          "access-control-allow-origin": "*",
+          "vary": "Accept-Encoding",
+          "cache-control": "public, max-age=30672000",
+          "accept-ranges": "bytes",
+          "cf-ray": "7cb68c57be61d560-CDG",
+          "expires": "Sat, 11 May 2024 16:48:42 GMT"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 89,
+        "remoteIPAddress": "[2606:4700::6811:190e]",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 682,
+        "timing": {
+          "requestTime": 80604.883654,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 46.667,
+          "sendEnd": 46.717,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 68.245
+        },
+        "responseTime": 1684774122135.386,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni.cloudflaressl.com",
+          "sanList": [
+            "cdnjs.cloudflare.com",
+            "*.cdnjs.cloudflare.com",
+            "sni.cloudflaressl.com"
+          ],
+          "issuer": "Cloudflare Inc ECC CA-3",
+          "validFrom": 1659484800,
+          "validTo": 1691020799,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Argon2023' log",
+              "logId": "E83ED0DA3EF5063532E75728BC896BC903D3CBD1116BECEB69E1777D6D06BD6E",
+              "timestamp": 1659553920178,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220359E7D1C03B84A87C01301D528AD64705B10FC728858487AE34CD527DB760022022012E0E234442224C1E57A2512AD9EF888A1A065AF1A76C903414F8A70C8E6BADA"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Yeti2023 Log",
+              "logId": "35CF191BBFB16C57BF0FAD4C6D42CBBBB627202651EA3FE12AEFA803C33BD64C",
+              "timestamp": 1659553920017,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100EE6ED3CF4A8A1316AB6BC2F732B62A5B13457A44ED3B868B85F494BAE08C12600221008C46CAE7C6A769C8226261BAE1298FBC3CBFF4A2814480DAF5C9B6E6AFCDA6FB"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Nessie2023 Log",
+              "logId": "B3737707E18450F86386D605A9DC11094A792DB1670C0B87DCF0030E7936A59A",
+              "timestamp": 1659553920038,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100E50CF64E3C40011AECD8912D696A1CFF4F75558CD7D238863636FAEE4F6529FC0221009FBC3F8A93C7A2EDF59499850190F260363B2E030EE0465E8C3E16392B64D178"
+            }
+          ],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.5",
+      "timestamp": 80604.952566,
+      "dataLength": 4953,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.5",
+      "timestamp": 80604.952081,
+      "encodedDataLength": 2099,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.8",
+      "blockedCookies": [],
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=315360000\npublic",
+        "content-encoding": "gzip",
+        "content-length": "8323",
+        "content-type": "text/css",
+        "date": "Mon, 22 May 2023 16:48:42 GMT",
+        "etag": "W/\"28feccc0-8c85\"",
+        "last-modified": "Fri, 18 Oct 1991 12:00:00 GMT",
+        "server": "nginx",
+        "vary": "Accept-Encoding",
+        "x-hw": "1684774122.dop208.pa1.t,1684774122.cds231.pa1.hn,1684774122.cds244.pa1.c"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.2",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.955477,
+      "type": "Script",
+      "response": {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Sat, 20 May 2023 00:23:55 GMT",
+          "content-encoding": "gzip",
+          "x-content-type-options": "nosniff",
+          "age": "231887",
+          "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/hosted-libraries-pushers",
+          "cross-origin-resource-policy": "cross-origin",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-length": "31021",
+          "x-xss-protection": "0",
+          "last-modified": "Fri, 08 May 2020 07:05:03 GMT",
+          "server": "sffe",
+          "cross-origin-opener-policy": "same-origin; report-to=\"hosted-libraries-pushers\"",
+          "vary": "Accept-Encoding",
+          "report-to": "{\"group\":\"hosted-libraries-pushers\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/hosted-libraries-pushers\"}]}",
+          "content-type": "text/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "accept-ranges": "bytes",
+          "timing-allow-origin": "*",
+          "expires": "Sun, 19 May 2024 00:23:55 GMT"
+        },
+        "mimeType": "text/javascript",
+        "connectionReused": false,
+        "connectionId": 93,
+        "remoteIPAddress": "[2a00:1450:4007:819::200a]",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 614,
+        "timing": {
+          "requestTime": 80604.882428,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.569,
+          "dnsEnd": 19.041,
+          "connectStart": 19.041,
+          "connectEnd": 52.988,
+          "sslStart": 32.598,
+          "sslEnd": 52.986,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 53.062,
+          "sendEnd": 53.109,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 67.213
+        },
+        "responseTime": 1684774122133.139,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "upload.video.google.com",
+          "sanList": [
+            "upload.video.google.com",
+            "*.clients.google.com",
+            "*.docs.google.com",
+            "*.drive.google.com",
+            "*.gdata.youtube.com",
+            "*.googleapis.com",
+            "*.photos.google.com",
+            "*.youtube-3rd-party.com",
+            "upload.google.com",
+            "*.upload.google.com",
+            "upload.youtube.com",
+            "*.upload.youtube.com",
+            "uploads.stage.gdata.youtube.com",
+            "bg-call-donation.goog",
+            "bg-call-donation-alpha.goog",
+            "bg-call-donation-canary.goog",
+            "bg-call-donation-dev.goog"
+          ],
+          "issuer": "GTS CA 1C3",
+          "validFrom": 1682337643,
+          "validTo": 1689595242,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Nessie2023 Log",
+              "logId": "B3737707E18450F86386D605A9DC11094A792DB1670C0B87DCF0030E7936A59A",
+              "timestamp": 1682341244795,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402203C9F22FA6E45247B8EA92A222F56BC333A1457F6F2D633E2C2A5B60AFCAFA11302201F8CAC251A10F65C73894BBEE5F103D5EFE791F2FDA8867FE25F4D2455B07F71"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Xenon2023' log",
+              "logId": "ADF7BEFA7CFF10C88B9D3D9C1E3E186AB467295DCFB10C24CA858634EBDC828A",
+              "timestamp": 1682341244819,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100A6E4B1CB1D6EF55C3382D8D3BFC5605598FB664449700555E206AC3C45127EDE0221009D07C0842B7E7F3FC79893CF8479C0187C9F60CD524B35B523289EE233992401"
+            }
+          ],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.2",
+      "timestamp": 80604.95551,
+      "dataLength": 60873,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.6",
+      "blockedCookies": [],
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "3967760",
+        "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+        "cache-control": "public, max-age=30672000",
+        "cf-cache-status": "HIT",
+        "cf-cdnjs-via": "cfworker/kv",
+        "cf-ray": "7cb68c57be60d560-CDG",
+        "content-encoding": "br",
+        "content-length": "1541",
+        "content-type": "text/css; charset=utf-8",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Mon, 22 May 2023 16:48:42 GMT",
+        "etag": "\"5eb03ec2-c81\"",
+        "expires": "Sat, 11 May 2024 16:48:42 GMT",
+        "last-modified": "Mon, 04 May 2020 16:11:46 GMT",
+        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Oux1M96jkaNFXIGe54IOAGQU89l7eMbSDlJfxEMBMkX7eHcZFeb9BDBqO3WQS9u31nClKum%2B9gi27BMS%2B%2B7pZGT3UQzi4bv%2Bs1mdhobVkWiopyiss62wdkkgEClBSupR2E7Wr5eRUHEPvNddpZTdXI%2FQ\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "server": "cloudflare",
+        "strict-transport-security": "max-age=15780000",
+        "timing-allow-origin": "*",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.957444,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 22 May 2023 16:48:42 GMT",
+          "content-encoding": "br",
+          "x-content-type-options": "nosniff",
+          "cf-cache-status": "HIT",
+          "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "age": "3967760",
+          "cross-origin-resource-policy": "cross-origin",
+          "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+          "content-length": "1541",
+          "timing-allow-origin": "*",
+          "last-modified": "Mon, 04 May 2020 16:11:46 GMT",
+          "server": "cloudflare",
+          "cf-cdnjs-via": "cfworker/kv",
+          "etag": "\"5eb03ec2-c81\"",
+          "strict-transport-security": "max-age=15780000",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Oux1M96jkaNFXIGe54IOAGQU89l7eMbSDlJfxEMBMkX7eHcZFeb9BDBqO3WQS9u31nClKum%2B9gi27BMS%2B%2B7pZGT3UQzi4bv%2Bs1mdhobVkWiopyiss62wdkkgEClBSupR2E7Wr5eRUHEPvNddpZTdXI%2FQ\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "content-type": "text/css; charset=utf-8",
+          "access-control-allow-origin": "*",
+          "vary": "Accept-Encoding",
+          "cache-control": "public, max-age=30672000",
+          "accept-ranges": "bytes",
+          "cf-ray": "7cb68c57be60d560-CDG",
+          "expires": "Sat, 11 May 2024 16:48:42 GMT"
+        },
+        "mimeType": "text/css",
+        "connectionReused": false,
+        "connectionId": 89,
+        "remoteIPAddress": "[2606:4700::6811:190e]",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 319,
+        "timing": {
+          "requestTime": 80604.883841,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0,
+          "dnsEnd": 13.325,
+          "connectStart": 13.325,
+          "connectEnd": 46.145,
+          "sslStart": 26.707,
+          "sslEnd": 46.143,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 46.452,
+          "sendEnd": 46.529,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 73.291
+        },
+        "responseTime": 1684774122140.311,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni.cloudflaressl.com",
+          "sanList": [
+            "cdnjs.cloudflare.com",
+            "*.cdnjs.cloudflare.com",
+            "sni.cloudflaressl.com"
+          ],
+          "issuer": "Cloudflare Inc ECC CA-3",
+          "validFrom": 1659484800,
+          "validTo": 1691020799,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Argon2023' log",
+              "logId": "E83ED0DA3EF5063532E75728BC896BC903D3CBD1116BECEB69E1777D6D06BD6E",
+              "timestamp": 1659553920178,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220359E7D1C03B84A87C01301D528AD64705B10FC728858487AE34CD527DB760022022012E0E234442224C1E57A2512AD9EF888A1A065AF1A76C903414F8A70C8E6BADA"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Yeti2023 Log",
+              "logId": "35CF191BBFB16C57BF0FAD4C6D42CBBBB627202651EA3FE12AEFA803C33BD64C",
+              "timestamp": 1659553920017,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100EE6ED3CF4A8A1316AB6BC2F732B62A5B13457A44ED3B868B85F494BAE08C12600221008C46CAE7C6A769C8226261BAE1298FBC3CBFF4A2814480DAF5C9B6E6AFCDA6FB"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Nessie2023 Log",
+              "logId": "B3737707E18450F86386D605A9DC11094A792DB1670C0B87DCF0030E7936A59A",
+              "timestamp": 1659553920038,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100E50CF64E3C40011AECD8912D696A1CFF4F75558CD7D238863636FAEE4F6529FC0221009FBC3F8A93C7A2EDF59499850190F260363B2E030EE0465E8C3E16392B64D178"
+            }
+          ],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.8",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.957704,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 22 May 2023 16:48:42 GMT",
+          "content-encoding": "gzip",
+          "last-modified": "Fri, 18 Oct 1991 12:00:00 GMT",
+          "server": "nginx",
+          "etag": "W/\"28feccc0-8c85\"",
+          "vary": "Accept-Encoding",
+          "x-hw": "1684774122.dop208.pa1.t,1684774122.cds231.pa1.hn,1684774122.cds244.pa1.c",
+          "content-type": "text/css",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public",
+          "accept-ranges": "bytes",
+          "content-length": "8323"
+        },
+        "mimeType": "text/css",
+        "connectionReused": false,
+        "connectionId": 91,
+        "remoteIPAddress": "[2001:4de0:ac18::1:a:2a]",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 204,
+        "timing": {
+          "requestTime": 80604.884345,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.07,
+          "dnsEnd": 14.137,
+          "connectStart": 14.137,
+          "connectEnd": 54.436,
+          "sslStart": 27.345,
+          "sslEnd": 54.434,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 54.543,
+          "sendEnd": 54.62,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 70.672
+        },
+        "responseTime": 1684774122138.572,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.jquery.com",
+          "sanList": [
+            "*.jquery.com",
+            "jquery.com"
+          ],
+          "issuer": "Sectigo RSA Domain Validation Secure Server CA",
+          "validFrom": 1659484800,
+          "validTo": 1689379199,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Xenon2023' log",
+              "logId": "ADF7BEFA7CFF10C88B9D3D9C1E3E186AB467295DCFB10C24CA858634EBDC828A",
+              "timestamp": 1659494231474,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220045F4110616638C1B814D2578703AA60D8E4A85E95EFC1E2AA5D7AC00266280302204FC0E090CB93DC5DD8DA729AE84156214674E6C200C06B07E90328A00274C34C"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2023' Log",
+              "logId": "7A328C54D8B72DB620EA38E0521EE98416703213854D3BD22BC13A57A352EB52",
+              "timestamp": 1659494231434,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100931115FD123092A4E1F4A788D67969164A960D1F6F014B87D3BD94D5329FE0E6022100F15B87B442A57ABA327375F88F4945A066388F1A2E48B9884F163F00A0E22C89"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Argon2023' log",
+              "logId": "E83ED0DA3EF5063532E75728BC896BC903D3CBD1116BECEB69E1777D6D06BD6E",
+              "timestamp": 1659494231377,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502205C546316D2182E063A481E76215DF2982B03516BAED137FE0EE7C7AAB4F41BBB022100C6FFBA1A782E6138851993898CC01BCFCFA85E20B3127A35C8407DFA3383AE23"
+            }
+          ],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.8",
+      "timestamp": 80604.957735,
+      "dataLength": 35973,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.8",
+      "timestamp": 80604.957488,
+      "encodedDataLength": 8545,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.6",
+      "timestamp": 80604.957862,
+      "dataLength": 3201,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.6",
+      "timestamp": 80604.95729,
+      "encodedDataLength": 1878,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.7",
+      "blockedCookies": [],
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=315360000\npublic",
+        "content-encoding": "gzip",
+        "content-length": "124434",
+        "content-type": "application/javascript; charset=utf-8",
+        "date": "Mon, 22 May 2023 16:48:42 GMT",
+        "etag": "W/\"28feccc0-7f20a\"",
+        "last-modified": "Fri, 18 Oct 1991 12:00:00 GMT",
+        "server": "nginx",
+        "vary": "Accept-Encoding",
+        "x-hw": "1684774122.dop208.pa1.t,1684774122.cds231.pa1.hn,1684774122.cds244.pa1.c"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.7",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80604.96007,
+      "type": "Script",
+      "response": {
+        "url": "https://code.jquery.com/ui/1.12.1/jquery-ui.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 22 May 2023 16:48:42 GMT",
+          "content-encoding": "gzip",
+          "last-modified": "Fri, 18 Oct 1991 12:00:00 GMT",
+          "server": "nginx",
+          "etag": "W/\"28feccc0-7f20a\"",
+          "vary": "Accept-Encoding",
+          "x-hw": "1684774122.dop208.pa1.t,1684774122.cds231.pa1.hn,1684774122.cds244.pa1.c",
+          "content-type": "application/javascript; charset=utf-8",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public",
+          "accept-ranges": "bytes",
+          "content-length": "124434"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 91,
+        "remoteIPAddress": "[2001:4de0:ac18::1:a:2a]",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 96,
+        "timing": {
+          "requestTime": 80604.884092,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 54.826,
+          "sendEnd": 54.874,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 74.085
+        },
+        "responseTime": 1684774122141.734,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.jquery.com",
+          "sanList": [
+            "*.jquery.com",
+            "jquery.com"
+          ],
+          "issuer": "Sectigo RSA Domain Validation Secure Server CA",
+          "validFrom": 1659484800,
+          "validTo": 1689379199,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Xenon2023' log",
+              "logId": "ADF7BEFA7CFF10C88B9D3D9C1E3E186AB467295DCFB10C24CA858634EBDC828A",
+              "timestamp": 1659494231474,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220045F4110616638C1B814D2578703AA60D8E4A85E95EFC1E2AA5D7AC00266280302204FC0E090CB93DC5DD8DA729AE84156214674E6C200C06B07E90328A00274C34C"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2023' Log",
+              "logId": "7A328C54D8B72DB620EA38E0521EE98416703213854D3BD22BC13A57A352EB52",
+              "timestamp": 1659494231434,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100931115FD123092A4E1F4A788D67969164A960D1F6F014B87D3BD94D5329FE0E6022100F15B87B442A57ABA327375F88F4945A066388F1A2E48B9884F163F00A0E22C89"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Argon2023' log",
+              "logId": "E83ED0DA3EF5063532E75728BC896BC903D3CBD1116BECEB69E1777D6D06BD6E",
+              "timestamp": 1659494231377,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502205C546316D2182E063A481E76215DF2982B03516BAED137FE0EE7C7AAB4F41BBB022100C6FFBA1A782E6138851993898CC01BCFCFA85E20B3127A35C8407DFA3383AE23"
+            }
+          ],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.960095,
+      "dataLength": 11588,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.961623,
+      "dataLength": 15475,
+      "encodedDataLength": 8009
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.2",
+      "timestamp": 80604.964438,
+      "dataLength": 28603,
+      "encodedDataLength": 31039
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.2",
+      "timestamp": 80604.964391,
+      "encodedDataLength": 31653,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.976369,
+      "dataLength": 45347,
+      "encodedDataLength": 32018
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.976396,
+      "dataLength": 53208,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.976419,
+      "dataLength": 33541,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.980149,
+      "dataLength": 48462,
+      "encodedDataLength": 12009
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.983235,
+      "dataLength": 65536,
+      "encodedDataLength": 36018
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.983791,
+      "dataLength": 90502,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.98852,
+      "dataLength": 65536,
+      "encodedDataLength": 36461
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.989055,
+      "dataLength": 91519,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.7",
+      "timestamp": 80604.988653,
+      "encodedDataLength": 124611,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.webSocketCreated",
+    "params": {
+      "requestId": "63172.20",
+      "url": "ws://127.0.0.1:5500/index.html/ws",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "20",
+              "url": "http://127.0.0.1:5500/index.html",
+              "lineNumber": 84,
+              "columnNumber": 16
+            },
+            {
+              "functionName": "",
+              "scriptId": "20",
+              "url": "http://127.0.0.1:5500/index.html",
+              "lineNumber": 93,
+              "columnNumber": 4
+            }
+          ]
+        }
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Runtime.consoleAPICalled",
+    "params": {
+      "type": "log",
+      "args": [
+        {
+          "type": "string",
+          "value": "Live reload enabled."
+        }
+      ],
+      "executionContextId": 7,
+      "timestamp": 1684774122188.267,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "20",
+            "url": "http://127.0.0.1:5500/index.html",
+            "lineNumber": 90,
+            "columnNumber": 12
+          },
+          {
+            "functionName": "",
+            "scriptId": "20",
+            "url": "http://127.0.0.1:5500/index.html",
+            "lineNumber": 93,
+            "columnNumber": 4
+          }
+        ]
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "name": "firstPaint",
+      "timestamp": 80605.013968
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "name": "firstContentfulPaint",
+      "timestamp": 80605.014005
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 80605.014041
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 80605.015035
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "name": "load",
+      "timestamp": 80605.015035
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 80605.015358
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "name": "DOMContentLoaded",
+      "timestamp": 80605.015358
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.webSocketWillSendHandshakeRequest",
+    "params": {
+      "requestId": "63172.20",
+      "timestamp": 80605.016026,
+      "wallTime": 1684774122.199607,
+      "request": {
+        "headers": {
+          "Pragma": "no-cache",
+          "Origin": "http://127.0.0.1:5500",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Host": "127.0.0.1:5500",
+          "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+          "Sec-WebSocket-Key": "KpyVX98aal3Anh+h9El+gw==",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "Upgrade": "websocket",
+          "Sec-WebSocket-Extensions": "permessage-deflate; client_max_window_bits",
+          "Cache-Control": "no-cache",
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Version": "13"
+        }
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.webSocketHandshakeResponseReceived",
+    "params": {
+      "requestId": "63172.20",
+      "timestamp": 80605.016681,
+      "response": {
+        "status": 101,
+        "statusText": "Switching Protocols",
+        "headers": {
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Accept": "qlYIIHKzp+EEnChiBzp5u6mvD20=",
+          "Upgrade": "websocket"
+        },
+        "headersText": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept: qlYIIHKzp+EEnChiBzp5u6mvD20=\r\n\r\n",
+        "requestHeaders": {
+          "Pragma": "no-cache",
+          "Origin": "http://127.0.0.1:5500",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Host": "127.0.0.1:5500",
+          "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+          "Sec-WebSocket-Key": "KpyVX98aal3Anh+h9El+gw==",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "Upgrade": "websocket",
+          "Sec-WebSocket-Extensions": "permessage-deflate; client_max_window_bits",
+          "Cache-Control": "no-cache",
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Version": "13"
+        },
+        "requestHeadersText": "GET ws://127.0.0.1:5500/index.html/ws HTTP/1.1\r\nHost: 127.0.0.1:5500\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nUser-Agent: Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36\r\nUpgrade: websocket\r\nOrigin: http://127.0.0.1:5500\r\nSec-WebSocket-Version: 13\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-GB,en-US;q=0.9,en;q=0.8\r\nSec-WebSocket-Key: KpyVX98aal3Anh+h9El+gw==\r\nSec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\n\r\n"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.21",
+      "associatedCookies": [],
+      "headers": {
+        ":authority": "code.jquery.com",
+        ":method": "GET",
+        ":path": "/ui/1.12.1/themes/base/images/ui-icons_777777_256x240.png",
+        ":scheme": "https",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "referer": "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\"",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36"
+      },
+      "connectTiming": {
+        "requestTime": 80605.02614
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.21",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "https://code.jquery.com/ui/1.12.1/themes/base/images/ui-icons_777777_256x240.png",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 80605.025884,
+      "wallTime": 1684774122.209487,
+      "initiator": {
+        "type": "parser",
+        "url": "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Image",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "63172.21",
+      "newPriority": "High",
+      "timestamp": 80605.02712
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "63172.22",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "documentURL": "http://127.0.0.1:5500/index.html",
+      "request": {
+        "url": "http://127.0.0.1:5500/favicon.ico",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://127.0.0.1:5500/index.html",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80605.040446,
+      "wallTime": 1684774122.22407,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Other",
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "63172.22",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/index.html",
+        "Sec-Fetch-Dest": "image",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80605.040879
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.22",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Credentials": "true",
+        "Connection": "keep-alive",
+        "Content-Length": "150",
+        "Content-Security-Policy": "default-src 'none'",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Mon, 22 May 2023 16:48:42 GMT",
+        "Keep-Alive": "timeout=5",
+        "Vary": "Origin",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 404,
+      "headersText": "HTTP/1.1 404 Not Found\r\nVary: Origin\r\nAccess-Control-Allow-Credentials: true\r\nContent-Security-Policy: default-src 'none'\r\nX-Content-Type-Options: nosniff\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 150\r\nDate: Mon, 22 May 2023 16:48:42 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "63172.21",
+      "blockedCookies": [],
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=315360000\npublic",
+        "content-length": "7013",
+        "content-type": "image/png",
+        "date": "Mon, 22 May 2023 16:48:42 GMT",
+        "etag": "\"28feccc0-1b65\"",
+        "last-modified": "Fri, 18 Oct 1991 12:00:00 GMT",
+        "server": "nginx",
+        "x-hw": "1684774122.dop208.pa1.t,1684774122.cds231.pa1.hn,1684774122.cds215.pa1.c"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.22",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80605.042623,
+      "type": "Other",
+      "response": {
+        "url": "http://127.0.0.1:5500/favicon.ico",
+        "status": 404,
+        "statusText": "Not Found",
+        "headers": {
+          "Content-Security-Policy": "default-src 'none'",
+          "X-Content-Type-Options": "nosniff",
+          "Date": "Mon, 22 May 2023 16:48:42 GMT",
+          "Vary": "Origin",
+          "Content-Type": "text/html; charset=utf-8",
+          "Access-Control-Allow-Credentials": "true",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=5",
+          "Content-Length": "150"
+        },
+        "mimeType": "text/html",
+        "connectionReused": true,
+        "connectionId": 88,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 5500,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 303,
+        "timing": {
+          "requestTime": 80605.040879,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.127,
+          "sendEnd": 0.149,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 1.346
+        },
+        "responseTime": 1684774122225.77,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.22",
+      "timestamp": 80605.042934,
+      "dataLength": 150,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.22",
+      "timestamp": 80605.043083,
+      "dataLength": 0,
+      "encodedDataLength": 150
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.22",
+      "timestamp": 80605.042649,
+      "encodedDataLength": 453,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "63172.21",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "timestamp": 80605.043256,
+      "type": "Image",
+      "response": {
+        "url": "https://code.jquery.com/ui/1.12.1/themes/base/images/ui-icons_777777_256x240.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 22 May 2023 16:48:42 GMT",
+          "last-modified": "Fri, 18 Oct 1991 12:00:00 GMT",
+          "server": "nginx",
+          "etag": "\"28feccc0-1b65\"",
+          "x-hw": "1684774122.dop208.pa1.t,1684774122.cds231.pa1.hn,1684774122.cds215.pa1.c",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public",
+          "accept-ranges": "bytes",
+          "content-length": "7013"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 91,
+        "remoteIPAddress": "[2001:4de0:ac18::1:a:2a]",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 124,
+        "timing": {
+          "requestTime": 80605.02614,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.109,
+          "sendEnd": 0.194,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 16.278
+        },
+        "responseTime": 1684774122225.974,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.jquery.com",
+          "sanList": [
+            "*.jquery.com",
+            "jquery.com"
+          ],
+          "issuer": "Sectigo RSA Domain Validation Secure Server CA",
+          "validFrom": 1659484800,
+          "validTo": 1689379199,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Xenon2023' log",
+              "logId": "ADF7BEFA7CFF10C88B9D3D9C1E3E186AB467295DCFB10C24CA858634EBDC828A",
+              "timestamp": 1659494231474,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220045F4110616638C1B814D2578703AA60D8E4A85E95EFC1E2AA5D7AC00266280302204FC0E090CB93DC5DD8DA729AE84156214674E6C200C06B07E90328A00274C34C"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2023' Log",
+              "logId": "7A328C54D8B72DB620EA38E0521EE98416703213854D3BD22BC13A57A352EB52",
+              "timestamp": 1659494231434,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100931115FD123092A4E1F4A788D67969164A960D1F6F014B87D3BD94D5329FE0E6022100F15B87B442A57ABA327375F88F4945A066388F1A2E48B9884F163F00A0E22C89"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Argon2023' log",
+              "logId": "E83ED0DA3EF5063532E75728BC896BC903D3CBD1116BECEB69E1777D6D06BD6E",
+              "timestamp": 1659494231377,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502205C546316D2182E063A481E76215DF2982B03516BAED137FE0EE7C7AAB4F41BBB022100C6FFBA1A782E6138851993898CC01BCFCFA85E20B3127A35C8407DFA3383AE23"
+            }
+          ],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "hasExtraInfo": true,
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "63172.21",
+      "timestamp": 80605.043289,
+      "dataLength": 7013,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "63172.21",
+      "timestamp": 80605.042544,
+      "encodedDataLength": 7155,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "63172.20",
+      "timestamp": 80605.112594,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "connected"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "name": "firstImagePaint",
+      "timestamp": 80605.129948
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "name": "networkAlmostIdle",
+      "timestamp": 80605.015364
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 80605.014041
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "22E6D22D02FF1FD409D30E48A9776EC6",
+      "loaderId": "395C1F7B6B2B770665715B1FD6C6BA80",
+      "name": "networkIdle",
+      "timestamp": 80605.043736
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  },
+  {
+    "method": "Runtime.executionContextCreated",
+    "params": {
+      "context": {
+        "id": 9,
+        "origin": "",
+        "name": "lighthouse_isolated_context",
+        "uniqueId": "5707167081300308014.3627288555048152908",
+        "auxData": {
+          "isDefault": false,
+          "type": "isolated",
+          "frameId": "22E6D22D02FF1FD409D30E48A9776EC6"
+        }
+      }
+    },
+    "targetType": "page",
+    "sessionId": "9829FBF60747449E0502FAEF49579294"
+  }
+]

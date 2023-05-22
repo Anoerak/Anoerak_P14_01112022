@@ -16,12 +16,12 @@ import './utils/styles/App.css';
  */
 function App() {
 	return (
-		<div className="App">
+		<div className='App'>
 			<VerticalMenu />
 			<Routes>
-				<Route path="/" element={<EmployeeList />} />
-				<Route path="/createEmployee" element={<NewEmployeeForm />} />
-				<Route path="*" element={<Error />} />
+				<Route path='/' element={<EmployeeList />} />
+				<Route path='/createEmployee' element={<NewEmployeeForm />} />
+				<Route path='*' element={<Error />} />
 			</Routes>
 		</div>
 	);

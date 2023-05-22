@@ -1,0 +1,3327 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "2DF7564B00C7D9C42F2B68A51653B22E",
+      "name": "commit",
+      "timestamp": 80319.978831
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "2DF7564B00C7D9C42F2B68A51653B22E",
+      "name": "DOMContentLoaded",
+      "timestamp": 80319.978862
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "2DF7564B00C7D9C42F2B68A51653B22E",
+      "name": "load",
+      "timestamp": 80319.979004
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "2DF7564B00C7D9C42F2B68A51653B22E",
+      "name": "networkAlmostIdle",
+      "timestamp": 80319.97913
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "2DF7564B00C7D9C42F2B68A51653B22E",
+      "name": "networkIdle",
+      "timestamp": 80319.97913
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "7F4F2989302DDF86343E829ABC3909F3",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "documentURL": "http://localhost:3000/",
+      "request": {
+        "url": "http://localhost:3000/",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "sec-ch-ua-mobile": "?1",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80320.053454,
+      "wallTime": 1684773837.246313,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Document",
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "7F4F2989302DDF86343E829ABC3909F3",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "localhost:3000",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80320.053826
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "7F4F2989302DDF86343E829ABC3909F3",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Mon, 22 May 2023 16:43:57 GMT",
+        "ETag": "W/\"6c6-RGYFPSVOOv/Bb9AyVGSraxYEgNo\"",
+        "Keep-Alive": "timeout=5",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nContent-Type: text/html; charset=utf-8\r\nAccept-Ranges: bytes\r\nETag: W/\"6c6-RGYFPSVOOv/Bb9AyVGSraxYEgNo\"\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Mon, 22 May 2023 16:43:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nTransfer-Encoding: chunked\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "7F4F2989302DDF86343E829ABC3909F3",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.055805,
+      "type": "Document",
+      "response": {
+        "url": "http://localhost:3000/",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Access-Control-Allow-Methods": "*",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "keep-alive",
+          "Content-Encoding": "gzip",
+          "Content-Type": "text/html; charset=utf-8",
+          "Date": "Mon, 22 May 2023 16:43:57 GMT",
+          "ETag": "W/\"6c6-RGYFPSVOOv/Bb9AyVGSraxYEgNo\"",
+          "Keep-Alive": "timeout=5",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding",
+          "X-Powered-By": "Express"
+        },
+        "mimeType": "text/html",
+        "connectionReused": true,
+        "connectionId": 25,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 404,
+        "timing": {
+          "requestTime": 80320.053826,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.092,
+          "sendEnd": 0.11,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 1.581
+        },
+        "responseTime": 1684773837248.196,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "name": "init",
+      "timestamp": 80320.0569
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "56562.2",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "localhost:3000",
+        "Referer": "http://localhost:3000/",
+        "Sec-Fetch-Dest": "script",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80320.058747
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Runtime.executionContextsCleared",
+    "params": {},
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+        "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+        "url": "http://localhost:3000/",
+        "domainAndRegistry": "",
+        "securityOrigin": "http://localhost:3000",
+        "mimeType": "text/html",
+        "adFrameStatus": {
+          "adFrameType": "none"
+        },
+        "secureContextType": "SecureLocalhost",
+        "crossOriginIsolatedContextType": "NotIsolated",
+        "gatedAPIFeatures": []
+      },
+      "type": "Navigation"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Runtime.executionContextCreated",
+    "params": {
+      "context": {
+        "id": 7,
+        "origin": "http://localhost:3000",
+        "name": "",
+        "uniqueId": "6620958697474926682.-3725936091756348183",
+        "auxData": {
+          "isDefault": true,
+          "type": "default",
+          "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+        }
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.058331,
+      "dataLength": 1734,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "56562.2",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "documentURL": "http://localhost:3000/",
+      "request": {
+        "url": "http://localhost:3000/static/js/bundle.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://localhost:3000/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80320.058491,
+      "wallTime": 1684773837.251351,
+      "initiator": {
+        "type": "parser",
+        "url": "http://localhost:3000/",
+        "lineNumber": 26,
+        "columnNumber": 42
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Runtime.executionContextCreated",
+    "params": {
+      "context": {
+        "id": 8,
+        "origin": "://",
+        "name": "__puppeteer_utility_world__",
+        "uniqueId": "-7888296279272051914.3241444857195237544",
+        "auxData": {
+          "isDefault": false,
+          "type": "isolated",
+          "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+        }
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.055807,
+      "encodedDataLength": 1264,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "56562.2",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript; charset=utf-8",
+        "Date": "Mon, 22 May 2023 16:43:57 GMT",
+        "ETag": "W/\"290059-7GzwtcfTTIr3UVAD2Hx9/tE5zaY\"",
+        "Keep-Alive": "timeout=5",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nContent-Type: application/javascript; charset=utf-8\r\nAccept-Ranges: bytes\r\nETag: W/\"290059-7GzwtcfTTIr3UVAD2Hx9/tE5zaY\"\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Mon, 22 May 2023 16:43:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nTransfer-Encoding: chunked\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "56562.2",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.065341,
+      "type": "Script",
+      "response": {
+        "url": "http://localhost:3000/static/js/bundle.js",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:43:57 GMT",
+          "Content-Encoding": "gzip",
+          "ETag": "W/\"290059-7GzwtcfTTIr3UVAD2Hx9/tE5zaY\"",
+          "X-Powered-By": "Express",
+          "Vary": "Accept-Encoding",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "application/javascript; charset=utf-8",
+          "Access-Control-Allow-Origin": "*",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 25,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 420,
+        "timing": {
+          "requestTime": 80320.058747,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.098,
+          "sendEnd": 0.134,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 6.251
+        },
+        "responseTime": 1684773837257.789,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.065385,
+      "dataLength": 29150,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.065838,
+      "dataLength": 81591,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.068467,
+      "dataLength": 65536,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.069081,
+      "dataLength": 78453,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.070925,
+      "dataLength": 79400,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.071595,
+      "dataLength": 76165,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.073752,
+      "dataLength": 70563,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.07453,
+      "dataLength": 67334,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.076466,
+      "dataLength": 69035,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.079179,
+      "dataLength": 65938,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.079792,
+      "dataLength": 72409,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.081967,
+      "dataLength": 70728,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.08236,
+      "dataLength": 65737,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.085212,
+      "dataLength": 65536,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.085822,
+      "dataLength": 100217,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.088344,
+      "dataLength": 65536,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.088732,
+      "dataLength": 117773,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.091569,
+      "dataLength": 65536,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.091944,
+      "dataLength": 97995,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.094679,
+      "dataLength": 65536,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.095067,
+      "dataLength": 99919,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.097495,
+      "dataLength": 77049,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.097985,
+      "dataLength": 89621,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.100291,
+      "dataLength": 77195,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.100829,
+      "dataLength": 70839,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.103182,
+      "dataLength": 64381,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.105822,
+      "dataLength": 65536,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.106212,
+      "dataLength": 68544,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.108121,
+      "dataLength": 13900,
+      "encodedDataLength": 32768
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.108247,
+      "dataLength": 65536,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.108774,
+      "dataLength": 213926,
+      "encodedDataLength": 16
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.110943,
+      "dataLength": 74795,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.111544,
+      "dataLength": 84132,
+      "encodedDataLength": 16392
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.113131,
+      "dataLength": 24257,
+      "encodedDataLength": 4172
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.113456,
+      "dataLength": 55943,
+      "encodedDataLength": 12228
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.114139,
+      "dataLength": 71324,
+      "encodedDataLength": 13814
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "56562.2",
+      "timestamp": 80320.113807,
+      "encodedDataLength": 538786,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.webSocketCreated",
+    "params": {
+      "requestId": "56562.4",
+      "url": "ws://localhost:3000/ws",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "WebSocketClient",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 51723,
+              "columnNumber": 18
+            },
+            {
+              "functionName": "initSocket",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 53125,
+              "columnNumber": 11
+            },
+            {
+              "functionName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 52073,
+              "columnNumber": 54
+            },
+            {
+              "functionName": "options.factory",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 63539,
+              "columnNumber": 30
+            },
+            {
+              "functionName": "__webpack_require__",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 62963,
+              "columnNumber": 32
+            },
+            {
+              "functionName": "",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 64183,
+              "columnNumber": 10
+            },
+            {
+              "functionName": "",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 64187,
+              "columnNumber": 11
+            }
+          ]
+        }
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Runtime.consoleAPICalled",
+    "params": {
+      "type": "info",
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "executionContextId": 7,
+      "timestamp": 1684773837362.22,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 41454,
+            "columnNumber": 20
+          },
+          {
+            "functionName": "./node_modules/react-dom/cjs/react-dom.development.js",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 41475,
+            "columnNumber": 4
+          },
+          {
+            "functionName": "options.factory",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 63539,
+            "columnNumber": 30
+          },
+          {
+            "functionName": "__webpack_require__",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 62963,
+            "columnNumber": 32
+          },
+          {
+            "functionName": "fn",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 63196,
+            "columnNumber": 20
+          },
+          {
+            "functionName": "./node_modules/react-dom/index.js",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 41546,
+            "columnNumber": 19
+          },
+          {
+            "functionName": "options.factory",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 63539,
+            "columnNumber": 30
+          },
+          {
+            "functionName": "__webpack_require__",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 62963,
+            "columnNumber": 32
+          },
+          {
+            "functionName": "fn",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 63196,
+            "columnNumber": 20
+          },
+          {
+            "functionName": "./node_modules/react-dom/client.js",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 41489,
+            "columnNumber": 8
+          },
+          {
+            "functionName": "options.factory",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 63539,
+            "columnNumber": 30
+          },
+          {
+            "functionName": "__webpack_require__",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 62963,
+            "columnNumber": 32
+          },
+          {
+            "functionName": "fn",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 63196,
+            "columnNumber": 20
+          },
+          {
+            "functionName": "./src/index.jsx",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 995,
+            "columnNumber": 73
+          },
+          {
+            "functionName": "options.factory",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 63539,
+            "columnNumber": 30
+          },
+          {
+            "functionName": "__webpack_require__",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 62963,
+            "columnNumber": 32
+          },
+          {
+            "functionName": "",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 64185,
+            "columnNumber": 36
+          },
+          {
+            "functionName": "",
+            "scriptId": "15",
+            "url": "http://localhost:3000/static/js/bundle.js",
+            "lineNumber": 64187,
+            "columnNumber": 11
+          }
+        ]
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 80320.189012
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "name": "DOMContentLoaded",
+      "timestamp": 80320.189012
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.webSocketWillSendHandshakeRequest",
+    "params": {
+      "requestId": "56562.4",
+      "timestamp": 80320.189405,
+      "wallTime": 1684773837.382237,
+      "request": {
+        "headers": {
+          "Pragma": "no-cache",
+          "Origin": "http://localhost:3000",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Host": "localhost:3000",
+          "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+          "Sec-WebSocket-Key": "iDfs5EkCcN/uoOC9LuSbBg==",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "Upgrade": "websocket",
+          "Sec-WebSocket-Extensions": "permessage-deflate; client_max_window_bits",
+          "Cache-Control": "no-cache",
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Version": "13"
+        }
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 80320.189565
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "name": "load",
+      "timestamp": 80320.189565
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "56562.8",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "documentURL": "http://localhost:3000/",
+      "request": {
+        "url": "http://localhost:3000/static/media/logo.9223f4cb0df73b185aea.webp",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://localhost:3000/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80320.200151,
+      "wallTime": 1684773837.393019,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [],
+          "parent": {
+            "description": "Image",
+            "callFrames": [
+              {
+                "functionName": "commitMount",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 25413,
+                "columnNumber": 29
+              },
+              {
+                "functionName": "commitLayoutEffectOnFiber",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 35977,
+                "columnNumber": 16
+              },
+              {
+                "functionName": "commitLayoutMountEffects_complete",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 37056,
+                "columnNumber": 12
+              },
+              {
+                "functionName": "commitLayoutEffects_begin",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 37045,
+                "columnNumber": 10
+              },
+              {
+                "functionName": "commitLayoutEffects",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 36991,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "commitRootImpl",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 38901,
+                "columnNumber": 8
+              },
+              {
+                "functionName": "commitRoot",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 38781,
+                "columnNumber": 8
+              },
+              {
+                "functionName": "finishConcurrentRender",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 38178,
+                "columnNumber": 12
+              },
+              {
+                "functionName": "performConcurrentWorkOnRoot",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 38029,
+                "columnNumber": 10
+              },
+              {
+                "functionName": "workLoop",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 50964,
+                "columnNumber": 37
+              },
+              {
+                "functionName": "flushWork",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 50942,
+                "columnNumber": 17
+              },
+              {
+                "functionName": "performWorkUntilDeadline",
+                "scriptId": "15",
+                "url": "http://localhost:3000/static/js/bundle.js",
+                "lineNumber": 51179,
+                "columnNumber": 24
+              }
+            ],
+            "parentId": {
+              "id": "1",
+              "debuggerId": "-2180572322574226288.7651682322205415939"
+            }
+          }
+        }
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Image",
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "56562.8",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "localhost:3000",
+        "Referer": "http://localhost:3000/",
+        "Sec-Fetch-Dest": "image",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80320.200407
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "56562.8",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "keep-alive",
+        "Content-Length": "21288",
+        "Content-Type": "image/webp",
+        "Date": "Mon, 22 May 2023 16:43:57 GMT",
+        "ETag": "W/\"5328-9xOD2TJxK3BK4kB0H/7FMBLQDLI\"",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nContent-Type: image/webp\r\nAccept-Ranges: bytes\r\nContent-Length: 21288\r\nETag: W/\"5328-9xOD2TJxK3BK4kB0H/7FMBLQDLI\"\r\nDate: Mon, 22 May 2023 16:43:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "56562.6",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "documentURL": "http://localhost:3000/",
+      "request": {
+        "url": "http://localhost:3000/static/media/NunitoSans-Regular.a427ddbe4dc20889d6e0.ttf",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://localhost:3000/",
+          "Origin": "http://localhost:3000",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80320.204489,
+      "wallTime": 1684773837.397348,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Font",
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "56562.5",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "documentURL": "http://localhost:3000/",
+      "request": {
+        "url": "http://localhost:3000/static/media/NunitoSans-Bold.022586a78ea7c9bee9da.ttf",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://localhost:3000/",
+          "Origin": "http://localhost:3000",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80320.204662,
+      "wallTime": 1684773837.397506,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Font",
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "name": "firstPaint",
+      "timestamp": 80320.210343
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "name": "firstContentfulPaint",
+      "timestamp": 80320.210405
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 80320.210432
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.webSocketHandshakeResponseReceived",
+    "params": {
+      "requestId": "56562.4",
+      "timestamp": 80320.210547,
+      "response": {
+        "status": 101,
+        "statusText": "Switching Protocols",
+        "headers": {
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Accept": "+UXKN92WKTWigQQhyO/oqiwNPlI=",
+          "Upgrade": "websocket"
+        },
+        "headersText": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept: +UXKN92WKTWigQQhyO/oqiwNPlI=\r\n\r\n",
+        "requestHeaders": {
+          "Pragma": "no-cache",
+          "Origin": "http://localhost:3000",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Host": "localhost:3000",
+          "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+          "Sec-WebSocket-Key": "iDfs5EkCcN/uoOC9LuSbBg==",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "Upgrade": "websocket",
+          "Sec-WebSocket-Extensions": "permessage-deflate; client_max_window_bits",
+          "Cache-Control": "no-cache",
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Version": "13"
+        },
+        "requestHeadersText": "GET ws://localhost:3000/ws HTTP/1.1\r\nHost: localhost:3000\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nUser-Agent: Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36\r\nUpgrade: websocket\r\nOrigin: http://localhost:3000\r\nSec-WebSocket-Version: 13\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-GB,en-US;q=0.9,en;q=0.8\r\nSec-WebSocket-Key: iDfs5EkCcN/uoOC9LuSbBg==\r\nSec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\n\r\n"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "56562.9",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "localhost:8080",
+        "Origin": "http://localhost:3000",
+        "Referer": "http://localhost:3000/",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-site",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80320.212486
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "56562.9",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "documentURL": "http://localhost:3000/",
+      "request": {
+        "url": "http://localhost:8080/employees",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Accept": "application/json, text/plain, */*",
+          "Referer": "http://localhost:3000/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80320.212239,
+      "wallTime": 1684773837.40512,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "dispatchXhrRequest",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 58860,
+              "columnNumber": 12
+            },
+            {
+              "functionName": "xhrAdapter",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 58684,
+              "columnNumber": 9
+            },
+            {
+              "functionName": "dispatchRequest",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 59824,
+              "columnNumber": 9
+            },
+            {
+              "functionName": "request",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 59288,
+              "columnNumber": 76
+            },
+            {
+              "functionName": "Axios.<computed>",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 59310,
+              "columnNumber": 16
+            },
+            {
+              "functionName": "wrap",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 60343,
+              "columnNumber": 14
+            },
+            {
+              "functionName": "fetchEmployees",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 1918,
+              "columnNumber": 79
+            },
+            {
+              "functionName": "",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 1932,
+              "columnNumber": 6
+            },
+            {
+              "functionName": "commitHookEffectListMount",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 35757,
+              "columnNumber": 29
+            },
+            {
+              "functionName": "commitPassiveMountOnFiber",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 37250,
+              "columnNumber": 16
+            },
+            {
+              "functionName": "commitPassiveMountEffects_complete",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 37222,
+              "columnNumber": 12
+            },
+            {
+              "functionName": "commitPassiveMountEffects_begin",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 37212,
+              "columnNumber": 10
+            },
+            {
+              "functionName": "commitPassiveMountEffects",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 37202,
+              "columnNumber": 6
+            },
+            {
+              "functionName": "flushPassiveEffectsImpl",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 39087,
+              "columnNumber": 6
+            },
+            {
+              "functionName": "flushPassiveEffects",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 39039,
+              "columnNumber": 17
+            },
+            {
+              "functionName": "",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 38854,
+              "columnNumber": 12
+            },
+            {
+              "functionName": "workLoop",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 50964,
+              "columnNumber": 37
+            },
+            {
+              "functionName": "flushWork",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 50942,
+              "columnNumber": 17
+            },
+            {
+              "functionName": "performWorkUntilDeadline",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 51179,
+              "columnNumber": 24
+            }
+          ],
+          "parentId": {
+            "id": "2",
+            "debuggerId": "-2180572322574226288.7651682322205415939"
+          }
+        }
+      },
+      "redirectHasExtraInfo": false,
+      "type": "XHR",
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "56562.8",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.213777,
+      "type": "Image",
+      "response": {
+        "url": "http://localhost:3000/static/media/logo.9223f4cb0df73b185aea.webp",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:43:57 GMT",
+          "ETag": "W/\"5328-9xOD2TJxK3BK4kB0H/7FMBLQDLI\"",
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "image/webp",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Content-Length": "21288",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "image/webp",
+        "connectionReused": true,
+        "connectionId": 25,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 339,
+        "timing": {
+          "requestTime": 80320.200407,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.115,
+          "sendEnd": 0.137,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 0.887
+        },
+        "responseTime": 1684773837394.094,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.8",
+      "timestamp": 80320.213801,
+      "dataLength": 21288,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.8",
+      "timestamp": 80320.213951,
+      "dataLength": 0,
+      "encodedDataLength": 21288
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "56562.8",
+      "timestamp": 80320.20176,
+      "encodedDataLength": 21627,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "56562.6",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "localhost:3000",
+        "Origin": "http://localhost:3000",
+        "Referer": "http://localhost:3000/",
+        "Sec-Fetch-Dest": "font",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80320.214144
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "56562.5",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "localhost:3000",
+        "Origin": "http://localhost:3000",
+        "Referer": "http://localhost:3000/",
+        "Sec-Fetch-Dest": "font",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80320.214372
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "56562.4",
+      "timestamp": 80320.214835,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"hot\"}"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "56562.10",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "documentURL": "http://localhost:3000/",
+      "request": {
+        "url": "http://localhost:3000/manifest.json",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://localhost:3000/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Medium",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80320.21503,
+      "wallTime": 1684773837.407878,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Manifest",
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "56562.4",
+      "timestamp": 80320.21568,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"liveReload\"}"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "56562.10",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "localhost:3000",
+        "Referer": "http://localhost:3000/",
+        "Sec-Fetch-Dest": "manifest",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80320.215352
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "56562.4",
+      "timestamp": 80320.215726,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"reconnect\",\"data\":10}"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "56562.4",
+      "timestamp": 80320.215769,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"overlay\",\"data\":{\"errors\":true,\"warnings\":false}}"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "56562.4",
+      "timestamp": 80320.215801,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"hash\",\"data\":\"477f9803ceac5b5efc45\"}"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "56562.4",
+      "timestamp": 80320.215834,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"ok\"}"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "56562.11",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "documentURL": "http://localhost:3000/",
+      "request": {
+        "url": "http://localhost:3000/favicon.ico",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://localhost:3000/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80320.216354,
+      "wallTime": 1684773837.409205,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Other",
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "56562.6",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "font/ttf",
+        "Date": "Mon, 22 May 2023 16:43:57 GMT",
+        "ETag": "W/\"21fa0-dxuSmeHV1COcAyx9QkOm+TQ/icQ\"",
+        "Keep-Alive": "timeout=5",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nContent-Type: font/ttf\r\nAccept-Ranges: bytes\r\nETag: W/\"21fa0-dxuSmeHV1COcAyx9QkOm+TQ/icQ\"\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Mon, 22 May 2023 16:43:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nTransfer-Encoding: chunked\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "56562.5",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "font/ttf",
+        "Date": "Mon, 22 May 2023 16:43:57 GMT",
+        "ETag": "W/\"227b4-x+iF0AwnW1OFV500efSDkgEzNOc\"",
+        "Keep-Alive": "timeout=5",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nContent-Type: font/ttf\r\nAccept-Ranges: bytes\r\nETag: W/\"227b4-x+iF0AwnW1OFV500efSDkgEzNOc\"\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Mon, 22 May 2023 16:43:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nTransfer-Encoding: chunked\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "56562.9",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Origin": "http://localhost:3000",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Mon, 22 May 2023 16:43:57 GMT",
+        "ETag": "W/\"f4c-Te2+2GXUh14g5wsXcPOEF2/f+4Q\"",
+        "Expires": "-1",
+        "Keep-Alive": "timeout=5",
+        "Pragma": "no-cache",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin, Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: http://localhost:3000\r\nVary: Origin, Accept-Encoding\r\nAccess-Control-Allow-Credentials: true\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nExpires: -1\r\nX-Content-Type-Options: nosniff\r\nContent-Type: application/json; charset=utf-8\r\nETag: W/\"f4c-Te2+2GXUh14g5wsXcPOEF2/f+4Q\"\r\nContent-Encoding: gzip\r\nDate: Mon, 22 May 2023 16:43:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nTransfer-Encoding: chunked\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "56562.10",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Length": "492",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Mon, 22 May 2023 16:43:57 GMT",
+        "ETag": "W/\"1ec-184188c5769\"",
+        "Keep-Alive": "timeout=5",
+        "Last-Modified": "Thu, 27 Oct 2022 08:26:01 GMT",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Thu, 27 Oct 2022 08:26:01 GMT\r\nETag: W/\"1ec-184188c5769\"\r\nContent-Type: application/json; charset=UTF-8\r\nContent-Length: 492\r\nVary: Accept-Encoding\r\nDate: Mon, 22 May 2023 16:43:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "56562.6",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.217461,
+      "type": "Font",
+      "response": {
+        "url": "http://localhost:3000/static/media/NunitoSans-Regular.a427ddbe4dc20889d6e0.ttf",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:43:57 GMT",
+          "Content-Encoding": "gzip",
+          "ETag": "W/\"21fa0-dxuSmeHV1COcAyx9QkOm+TQ/icQ\"",
+          "X-Powered-By": "Express",
+          "Vary": "Accept-Encoding",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "font/ttf",
+          "Access-Control-Allow-Origin": "*",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "font/ttf",
+        "connectionReused": true,
+        "connectionId": 25,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 390,
+        "timing": {
+          "requestTime": 80320.214144,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.066,
+          "sendEnd": 0.111,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 2.811
+        },
+        "responseTime": 1684773837409.717,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "56562.5",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.217805,
+      "type": "Font",
+      "response": {
+        "url": "http://localhost:3000/static/media/NunitoSans-Bold.022586a78ea7c9bee9da.ttf",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:43:57 GMT",
+          "Content-Encoding": "gzip",
+          "ETag": "W/\"227b4-x+iF0AwnW1OFV500efSDkgEzNOc\"",
+          "X-Powered-By": "Express",
+          "Vary": "Accept-Encoding",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "font/ttf",
+          "Access-Control-Allow-Origin": "*",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "font/ttf",
+        "connectionReused": true,
+        "connectionId": 34,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 390,
+        "timing": {
+          "requestTime": 80320.214372,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.051,
+          "sendEnd": 0.113,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 2.873
+        },
+        "responseTime": 1684773837410.053,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.5",
+      "timestamp": 80320.217831,
+      "dataLength": 7621,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.6",
+      "timestamp": 80320.217884,
+      "dataLength": 34847,
+      "encodedDataLength": 3706
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "56562.9",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.217992,
+      "type": "XHR",
+      "response": {
+        "url": "http://localhost:8080/employees",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Pragma": "no-cache",
+          "Date": "Mon, 22 May 2023 16:43:57 GMT",
+          "Content-Encoding": "gzip",
+          "X-Content-Type-Options": "nosniff",
+          "X-Powered-By": "Express",
+          "Transfer-Encoding": "chunked",
+          "Content-Type": "application/json; charset=utf-8",
+          "Access-Control-Allow-Origin": "http://localhost:3000",
+          "Cache-Control": "no-cache",
+          "Access-Control-Allow-Credentials": "true",
+          "Connection": "keep-alive",
+          "Vary": "Origin, Accept-Encoding",
+          "ETag": "W/\"f4c-Te2+2GXUh14g5wsXcPOEF2/f+4Q\"",
+          "Keep-Alive": "timeout=5",
+          "Expires": "-1"
+        },
+        "mimeType": "application/json",
+        "connectionReused": false,
+        "connectionId": 59,
+        "remoteIPAddress": "[::1]",
+        "remotePort": 8080,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 480,
+        "timing": {
+          "requestTime": 80320.212486,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.063,
+          "dnsEnd": 0.065,
+          "connectStart": 0.065,
+          "connectEnd": 0.272,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.288,
+          "sendEnd": 0.312,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 5.01
+        },
+        "responseTime": 1684773837410.308,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "56562.11",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "localhost:3000",
+        "Referer": "http://localhost:3000/",
+        "Sec-Fetch-Dest": "image",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80320.216718
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "56562.10",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.218096,
+      "type": "Manifest",
+      "response": {
+        "url": "http://localhost:3000/manifest.json",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:43:57 GMT",
+          "ETag": "W/\"1ec-184188c5769\"",
+          "Last-Modified": "Thu, 27 Oct 2022 08:26:01 GMT",
+          "X-Powered-By": "Express",
+          "Vary": "Accept-Encoding",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "application/json; charset=UTF-8",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=0",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Content-Length": "492",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "application/json",
+        "connectionReused": false,
+        "connectionId": 73,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 444,
+        "timing": {
+          "requestTime": 80320.215352,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.139,
+          "dnsEnd": 0.143,
+          "connectStart": 0.143,
+          "connectEnd": 0.467,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.487,
+          "sendEnd": 0.505,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 2.243
+        },
+        "responseTime": 1684773837410.411,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.10",
+      "timestamp": 80320.218118,
+      "dataLength": 492,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.10",
+      "timestamp": 80320.218932,
+      "dataLength": 0,
+      "encodedDataLength": 492
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "56562.10",
+      "timestamp": 80320.218383,
+      "encodedDataLength": 936,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.6",
+      "timestamp": 80320.2192,
+      "dataLength": 30533,
+      "encodedDataLength": 29078
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "56562.12",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "documentURL": "http://localhost:3000/",
+      "request": {
+        "url": "http://localhost:3000/logo192.png",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://localhost:3000/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80320.220139,
+      "wallTime": 1684773837.41299,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Other",
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.5",
+      "timestamp": 80320.220282,
+      "dataLength": 59136,
+      "encodedDataLength": 32784
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "56562.11",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "image/x-icon",
+        "Date": "Mon, 22 May 2023 16:43:57 GMT",
+        "ETag": "W/\"b07e-184188e3475\"",
+        "Keep-Alive": "timeout=5",
+        "Last-Modified": "Thu, 27 Oct 2022 08:28:03 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Thu, 27 Oct 2022 08:28:03 GMT\r\nETag: W/\"b07e-184188e3475\"\r\nContent-Type: image/x-icon\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Mon, 22 May 2023 16:43:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nTransfer-Encoding: chunked\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.9",
+      "timestamp": 80320.220333,
+      "dataLength": 3916,
+      "encodedDataLength": 786
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "56562.9",
+      "timestamp": 80320.219197,
+      "encodedDataLength": 1271,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "56562.12",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "localhost:3000",
+        "Referer": "http://localhost:3000/",
+        "Sec-Fetch-Dest": "image",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80320.220537
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "56562.13",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "localhost:3000",
+        "Referer": "http://localhost:3000/",
+        "Sec-Fetch-Dest": "script",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "connectTiming": {
+        "requestTime": 80320.223477
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "56562.13",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "documentURL": "http://localhost:3000/",
+      "request": {
+        "url": "http://localhost:3000/static/js/vendors-node_modules_react-data-table-component_dist_index_cjs_js.chunk.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"109\", \"Google Chrome\";v=\"109\", \"Lighthouse\";v=\"10.2.0\"",
+          "Referer": "http://localhost:3000/",
+          "sec-ch-ua-mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua-platform": "\"Android\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 80320.223253,
+      "wallTime": 1684773837.416142,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "__webpack_require__.l",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 63109,
+              "columnNumber": 40
+            },
+            {
+              "functionName": "__webpack_require__.f.j",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 63637,
+              "columnNumber": 36
+            },
+            {
+              "functionName": "",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 63017,
+              "columnNumber": 39
+            },
+            {
+              "functionName": "__webpack_require__.e",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 63016,
+              "columnNumber": 66
+            },
+            {
+              "functionName": "fn.e",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 63216,
+              "columnNumber": 49
+            },
+            {
+              "functionName": "_c",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 1208,
+              "columnNumber": 106
+            },
+            {
+              "functionName": "lazyInitializer",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 48517,
+              "columnNumber": 23
+            },
+            {
+              "functionName": "resolveLazy",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 28690,
+              "columnNumber": 13
+            },
+            {
+              "functionName": "reconcileSingleElement",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 29361,
+              "columnNumber": 117
+            },
+            {
+              "functionName": "reconcileChildFibers",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 29436,
+              "columnNumber": 38
+            },
+            {
+              "functionName": "reconcileChildren",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 32385,
+              "columnNumber": 31
+            },
+            {
+              "functionName": "updateHostComponent",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 33022,
+              "columnNumber": 6
+            },
+            {
+              "functionName": "beginWork",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 34467,
+              "columnNumber": 17
+            },
+            {
+              "functionName": "beginWork$1",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 39406,
+              "columnNumber": 17
+            },
+            {
+              "functionName": "performUnitOfWork",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 38675,
+              "columnNumber": 15
+            },
+            {
+              "functionName": "workLoopSync",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 38598,
+              "columnNumber": 8
+            },
+            {
+              "functionName": "renderRootSync",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 38571,
+              "columnNumber": 10
+            },
+            {
+              "functionName": "performConcurrentWorkOnRoot",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 37965,
+              "columnNumber": 77
+            },
+            {
+              "functionName": "workLoop",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 50964,
+              "columnNumber": 37
+            },
+            {
+              "functionName": "flushWork",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 50942,
+              "columnNumber": 17
+            },
+            {
+              "functionName": "performWorkUntilDeadline",
+              "scriptId": "15",
+              "url": "http://localhost:3000/static/js/bundle.js",
+              "lineNumber": 51179,
+              "columnNumber": 24
+            }
+          ],
+          "parentId": {
+            "id": "3",
+            "debuggerId": "-2180572322574226288.7651682322205415939"
+          }
+        }
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "hasUserGesture": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "56562.12",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Length": "4153",
+        "Content-Type": "image/png",
+        "Date": "Mon, 22 May 2023 16:43:57 GMT",
+        "ETag": "W/\"1039-184188c5768\"",
+        "Keep-Alive": "timeout=5",
+        "Last-Modified": "Thu, 27 Oct 2022 08:26:01 GMT",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Thu, 27 Oct 2022 08:26:01 GMT\r\nETag: W/\"1039-184188c5768\"\r\nContent-Type: image/png\r\nContent-Length: 4153\r\nDate: Mon, 22 May 2023 16:43:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.6",
+      "timestamp": 80320.224,
+      "dataLength": 73788,
+      "encodedDataLength": 30850
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "56562.6",
+      "timestamp": 80320.222353,
+      "encodedDataLength": 64024,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "56562.11",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.224928,
+      "type": "Other",
+      "response": {
+        "url": "http://localhost:3000/favicon.ico",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:43:57 GMT",
+          "Content-Encoding": "gzip",
+          "ETag": "W/\"b07e-184188e3475\"",
+          "Last-Modified": "Thu, 27 Oct 2022 08:28:03 GMT",
+          "X-Powered-By": "Express",
+          "Vary": "Accept-Encoding",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "image/x-icon",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=0",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "image/x-icon",
+        "connectionReused": false,
+        "connectionId": 79,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 457,
+        "timing": {
+          "requestTime": 80320.216718,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.404,
+          "dnsEnd": 0.406,
+          "connectStart": 0.406,
+          "connectEnd": 1.03,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 1.864,
+          "sendEnd": 1.917,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 4.339
+        },
+        "responseTime": 1684773837413.828,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.11",
+      "timestamp": 80320.22497,
+      "dataLength": 45182,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.11",
+      "timestamp": 80320.225856,
+      "dataLength": 0,
+      "encodedDataLength": 36277
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "56562.11",
+      "timestamp": 80320.222588,
+      "encodedDataLength": 36734,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "56562.13",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript; charset=utf-8",
+        "Date": "Mon, 22 May 2023 16:43:57 GMT",
+        "ETag": "W/\"2333a-MifBRkSko0aVFFrcc38c9ewPBK0\"",
+        "Keep-Alive": "timeout=5",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nContent-Type: application/javascript; charset=utf-8\r\nAccept-Ranges: bytes\r\nETag: W/\"2333a-MifBRkSko0aVFFrcc38c9ewPBK0\"\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Mon, 22 May 2023 16:43:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nTransfer-Encoding: chunked\r\n\r\n"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.5",
+      "timestamp": 80320.225968,
+      "dataLength": 74479,
+      "encodedDataLength": 31008
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "56562.5",
+      "timestamp": 80320.222127,
+      "encodedDataLength": 64182,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "56562.12",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.226851,
+      "type": "Other",
+      "response": {
+        "url": "http://localhost:3000/logo192.png",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:43:57 GMT",
+          "ETag": "W/\"1039-184188c5768\"",
+          "Last-Modified": "Thu, 27 Oct 2022 08:26:01 GMT",
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "image/png",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=0",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Content-Length": "4153",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 34,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 401,
+        "timing": {
+          "requestTime": 80320.220537,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 2.103,
+          "sendEnd": 2.121,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 3.718
+        },
+        "responseTime": 1684773837417.024,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.12",
+      "timestamp": 80320.226882,
+      "dataLength": 4153,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.12",
+      "timestamp": 80320.22715,
+      "dataLength": 0,
+      "encodedDataLength": 4153
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "56562.12",
+      "timestamp": 80320.224857,
+      "encodedDataLength": 4554,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "56562.13",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "timestamp": 80320.228652,
+      "type": "Script",
+      "response": {
+        "url": "http://localhost:3000/static/js/vendors-node_modules_react-data-table-component_dist_index_cjs_js.chunk.js",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 22 May 2023 16:43:57 GMT",
+          "Content-Encoding": "gzip",
+          "ETag": "W/\"2333a-MifBRkSko0aVFFrcc38c9ewPBK0\"",
+          "X-Powered-By": "Express",
+          "Vary": "Accept-Encoding",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "application/javascript; charset=utf-8",
+          "Access-Control-Allow-Origin": "*",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 79,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 419,
+        "timing": {
+          "requestTime": 80320.223477,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.076,
+          "sendEnd": 0.092,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 3.118
+        },
+        "responseTime": 1684773837419.391,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.13",
+      "timestamp": 80320.228677,
+      "dataLength": 144186,
+      "encodedDataLength": 0
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "56562.13",
+      "timestamp": 80320.230353,
+      "dataLength": 0,
+      "encodedDataLength": 36802
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "56562.13",
+      "timestamp": 80320.228072,
+      "encodedDataLength": 37221,
+      "shouldReportCorbBlocking": false
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 80320.278066
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "name": "networkAlmostIdle",
+      "timestamp": 80320.226628
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 80320.278066
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82",
+      "loaderId": "7F4F2989302DDF86343E829ABC3909F3",
+      "name": "networkIdle",
+      "timestamp": 80320.230357
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  },
+  {
+    "method": "Runtime.executionContextCreated",
+    "params": {
+      "context": {
+        "id": 9,
+        "origin": "",
+        "name": "lighthouse_isolated_context",
+        "uniqueId": "-6852806255506060288.-5045621122448428496",
+        "auxData": {
+          "isDefault": false,
+          "type": "isolated",
+          "frameId": "0D53D1FE2B695BF55BB5F5E8B010BF82"
+        }
+      }
+    },
+    "targetType": "page",
+    "sessionId": "32FB76F3C60DCE10D73DE14FFF0D2430"
+  }
+]

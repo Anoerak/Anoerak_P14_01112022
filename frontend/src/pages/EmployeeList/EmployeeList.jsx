@@ -136,7 +136,7 @@ const EmployeeList = () => {
 					<div className='employeeList__error'>{errorMessage}</div>
 				) : (
 					<DataTable
-						title='Employee List'
+						title='Employees List'
 						columns={columns}
 						data={displayedDatas}
 						pagination
